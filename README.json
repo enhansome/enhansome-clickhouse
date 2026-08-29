@@ -12,12 +12,38 @@
               "children": [],
               "repo_info": {
                 "archived": false,
+                "description": "Parsing gigabytes of JSON per second : used by Facebook/Meta Velox, the Node.js runtime, ClickHouse, WatermelonDB, Apache Doris, Milvus, StarRocks",
+                "homepage": "https://simdjson.org",
                 "id": 126412363,
                 "language": "C++",
+                "license": "Apache-2.0",
                 "last_commit": "2026-08-27T10:15:20Z",
+                "open_issues": 134,
                 "owner": "simdjson",
                 "repo": "simdjson",
-                "stars": 24207
+                "stars": 24208,
+                "topics": [
+                  "aarch64",
+                  "arm64",
+                  "avx2",
+                  "avx512",
+                  "c-plus-plus",
+                  "clang",
+                  "clang-cl",
+                  "cpp11",
+                  "gcc-compiler",
+                  "json",
+                  "json-parser",
+                  "json-pointer",
+                  "loongarch",
+                  "loongarch64",
+                  "neon",
+                  "risc-v",
+                  "simd",
+                  "sse42",
+                  "vs2019",
+                  "x64"
+                ]
               },
               "first_seen": "2026-08-28T20:56:09.652Z"
             },
@@ -28,12 +54,29 @@
               "children": [],
               "repo_info": {
                 "archived": false,
+                "description": "Roaring bitmaps in C (and C++), with SIMD (AVX2, AVX-512 and NEON) optimizations: used by Apache Doris, ClickHouse, Alibaba Tair, Redpanda, YDB and StarRocks",
+                "homepage": "http://roaringbitmap.org/",
                 "id": 47219360,
                 "language": "C",
+                "license": "NOASSERTION",
                 "last_commit": "2026-08-27T14:02:44Z",
+                "open_issues": 58,
                 "owner": "RoaringBitmap",
                 "repo": "CRoaring",
-                "stars": 1876
+                "stars": 1876,
+                "topics": [
+                  "arm",
+                  "avx-512",
+                  "avx2",
+                  "bitset",
+                  "bitset-library",
+                  "c",
+                  "clang",
+                  "gcc",
+                  "neon",
+                  "roaring-bitmaps",
+                  "visual-studio"
+                ]
               },
               "first_seen": "2026-08-28T20:56:09.652Z"
             },
@@ -44,12 +87,26 @@
               "children": [],
               "repo_info": {
                 "archived": false,
+                "description": "WHATWG-compliant and fast URL parser written in modern C++, part of Internet Archive, Node.js, Clickhouse, Redpanda, Kong, Telegram, Adguard, Datadog and Cloudflare Workers.",
+                "homepage": "https://ada-url.com",
                 "id": 579485798,
                 "language": "C++",
-                "last_commit": "2026-08-28T14:17:17Z",
+                "license": "Apache-2.0",
+                "last_commit": "2026-08-29T03:05:27Z",
+                "open_issues": 30,
                 "owner": "ada-url",
                 "repo": "ada",
-                "stars": 1831
+                "stars": 1832,
+                "topics": [
+                  "cpp",
+                  "neon",
+                  "parser",
+                  "performance",
+                  "simd",
+                  "sse2",
+                  "url",
+                  "whatwg-url"
+                ]
               },
               "first_seen": "2026-08-28T20:56:09.652Z"
             },
@@ -60,12 +117,20 @@
               "children": [],
               "repo_info": {
                 "archived": false,
+                "description": "C++ client library for ClickHouse",
+                "homepage": null,
                 "id": 208047461,
                 "language": "C",
+                "license": "Apache-2.0",
                 "last_commit": "2026-08-28T17:26:54Z",
+                "open_issues": 46,
                 "owner": "ClickHouse",
                 "repo": "clickhouse-cpp",
-                "stars": 381
+                "stars": 381,
+                "topics": [
+                  "clickhouse",
+                  "cpp"
+                ]
               },
               "first_seen": "2026-08-28T20:56:09.652Z"
             },
@@ -76,12 +141,22 @@
               "children": [],
               "repo_info": {
                 "archived": false,
+                "description": "Interfaces to query ClickHouse databases from PostgreSQL",
+                "homepage": null,
                 "id": 1062909598,
                 "language": "C",
+                "license": "Apache-2.0",
                 "last_commit": "2026-08-23T03:21:31Z",
+                "open_issues": 39,
                 "owner": "ClickHouse",
                 "repo": "pg_clickhouse",
-                "stars": 280
+                "stars": 280,
+                "topics": [
+                  "clickhouse",
+                  "fdw",
+                  "postgresql",
+                  "sql"
+                ]
               },
               "first_seen": "2026-08-28T20:56:09.652Z"
             },
@@ -92,12 +167,25 @@
               "children": [],
               "repo_info": {
                 "archived": false,
+                "description": "The AI Toolkit for Modern C++. From the engineers at ClickHouse, ai-sdk-cpp is a free, open‑source library for building AI‑powered applications and agents.",
+                "homepage": null,
                 "id": 1006216723,
                 "language": "C++",
+                "license": "Apache-2.0",
                 "last_commit": "2026-08-19T21:08:42Z",
+                "open_issues": 4,
                 "owner": "ClickHouse",
                 "repo": "ai-sdk-cpp",
-                "stars": 183
+                "stars": 183,
+                "topics": [
+                  "anthropic",
+                  "artificial-intelligence",
+                  "cpp",
+                  "gemini",
+                  "generative-ai",
+                  "llm",
+                  "openai"
+                ]
               },
               "first_seen": "2026-08-28T20:56:09.652Z"
             }
@@ -115,12 +203,17 @@
               "children": [],
               "repo_info": {
                 "archived": false,
+                "description": "ClickHouse adapter for Ecto",
+                "homepage": null,
                 "id": 572972102,
                 "language": "Elixir",
+                "license": "MIT",
                 "last_commit": "2026-08-17T11:13:05Z",
+                "open_issues": 21,
                 "owner": "plausible",
                 "repo": "ecto_ch",
-                "stars": 126
+                "stars": 126,
+                "topics": []
               },
               "first_seen": "2026-08-28T20:56:09.652Z"
             }
@@ -138,12 +231,38 @@
               "children": [],
               "repo_info": {
                 "archived": false,
+                "description": "Data API Framework for AI Agents and Data Apps",
+                "homepage": "https://vulcansql.com",
                 "id": 486130018,
                 "language": "TypeScript",
+                "license": "Apache-2.0",
                 "last_commit": "2024-07-01T02:57:10Z",
+                "open_issues": 36,
                 "owner": "Canner",
                 "repo": "vulcan-sql",
-                "stars": 792
+                "stars": 792,
+                "topics": [
+                  "ai",
+                  "ai-agent",
+                  "analytics",
+                  "api-builder",
+                  "bigquery",
+                  "clickhouse",
+                  "data-lake",
+                  "data-warehouse",
+                  "database",
+                  "duckdb",
+                  "ksqldb",
+                  "postgresql",
+                  "reporting",
+                  "restful-api",
+                  "snowflake",
+                  "spreadsheet",
+                  "sql",
+                  "typescript",
+                  "vulcan-sql",
+                  "vulcansql"
+                ]
               },
               "first_seen": "2026-08-28T20:56:09.652Z"
             },
@@ -154,12 +273,28 @@
               "children": [],
               "repo_info": {
                 "archived": false,
+                "description": "The agent harness for building analytics into your app on top of ClickHouse, Redpanda and other high-performance analytical infrastructure",
+                "homepage": "https://docs.fiveonefour.com/moosestack",
                 "id": 668493044,
                 "language": "Rust",
+                "license": "MIT",
                 "last_commit": "2026-07-31T15:26:18Z",
+                "open_issues": 1,
                 "owner": "514-labs",
                 "repo": "moosestack",
-                "stars": 588
+                "stars": 588,
+                "topics": [
+                  "analytics",
+                  "data",
+                  "dataengineering",
+                  "deployment",
+                  "framework",
+                  "insights",
+                  "metrics",
+                  "python",
+                  "rust",
+                  "typescript"
+                ]
               },
               "first_seen": "2026-08-28T20:56:09.652Z"
             },
@@ -170,12 +305,25 @@
               "children": [],
               "repo_info": {
                 "archived": false,
+                "description": "Official JS client for ClickHouse DB",
+                "homepage": "https://clickhouse.com",
                 "id": 517653557,
                 "language": "TypeScript",
+                "license": "Apache-2.0",
                 "last_commit": "2026-08-24T14:15:15Z",
+                "open_issues": 59,
                 "owner": "ClickHouse",
                 "repo": "clickhouse-js",
-                "stars": 330
+                "stars": 330,
+                "topics": [
+                  "clickhouse",
+                  "http",
+                  "https",
+                  "javascript",
+                  "nodejs",
+                  "streaming",
+                  "typescript"
+                ]
               },
               "first_seen": "2026-08-28T20:56:09.652Z"
             },
@@ -186,12 +334,17 @@
               "children": [],
               "repo_info": {
                 "archived": false,
+                "description": "NodeJS client for ClickHouse",
+                "homepage": null,
                 "id": 61785763,
                 "language": "JavaScript",
+                "license": "Apache-2.0",
                 "last_commit": "2024-06-16T15:17:41Z",
+                "open_issues": 45,
                 "owner": "TimonKK",
                 "repo": "clickhouse",
-                "stars": 222
+                "stars": 222,
+                "topics": []
               },
               "first_seen": "2026-08-28T20:56:09.652Z"
             },
@@ -202,12 +355,17 @@
               "children": [],
               "repo_info": {
                 "archived": false,
+                "description": "Yandex ClickHouse driver for nodejs",
+                "homepage": null,
                 "id": 64013655,
                 "language": "JavaScript",
+                "license": "MIT",
                 "last_commit": "2023-02-09T11:52:28Z",
+                "open_issues": 30,
                 "owner": "apla",
                 "repo": "node-clickhouse",
-                "stars": 215
+                "stars": 215,
+                "topics": []
               },
               "first_seen": "2026-08-28T20:56:09.652Z"
             }
@@ -225,12 +383,24 @@
               "children": [],
               "repo_info": {
                 "archived": false,
+                "description": "Golang driver for ClickHouse",
+                "homepage": null,
                 "id": 78678862,
                 "language": "Go",
+                "license": "Apache-2.0",
                 "last_commit": "2026-08-28T19:15:34Z",
+                "open_issues": 174,
                 "owner": "ClickHouse",
                 "repo": "clickhouse-go",
-                "stars": 3335
+                "stars": 3335,
+                "topics": [
+                  "analytics-database",
+                  "clickhouse",
+                  "database",
+                  "golang",
+                  "golang-driver",
+                  "sql"
+                ]
               },
               "first_seen": "2026-08-28T20:56:09.652Z"
             },
@@ -241,12 +411,32 @@
               "children": [],
               "repo_info": {
                 "archived": false,
+                "description": "Open Source HTTP Reverse Proxy Cache and Time Series DB Query Accelerator",
+                "homepage": "https://trickstercache.org",
                 "id": 127344362,
                 "language": "Go",
-                "last_commit": "2026-08-27T13:26:44Z",
+                "license": "Apache-2.0",
+                "last_commit": "2026-08-28T23:52:32Z",
+                "open_issues": 13,
                 "owner": "trickstercache",
                 "repo": "trickster",
-                "stars": 2088
+                "stars": 2088,
+                "topics": [
+                  "accelerator",
+                  "caching",
+                  "clickhouse",
+                  "dashboards",
+                  "druid",
+                  "graphite",
+                  "http-proxy",
+                  "influxdb",
+                  "load-balancer",
+                  "mysql",
+                  "performance",
+                  "prometheus",
+                  "reverse-proxy",
+                  "tsdb"
+                ]
               },
               "first_seen": "2026-08-28T20:56:09.652Z"
             },
@@ -257,12 +447,22 @@
               "children": [],
               "repo_info": {
                 "archived": false,
+                "description": "Open-Source ClickHouse http proxy and load balancer",
+                "homepage": "https://www.chproxy.org/",
                 "id": 103940483,
                 "language": "Go",
+                "license": "MIT",
                 "last_commit": "2026-04-15T07:11:53Z",
+                "open_issues": 90,
                 "owner": "ContentSquare",
                 "repo": "chproxy",
-                "stars": 1480
+                "stars": 1480,
+                "topics": [
+                  "clickhouse",
+                  "clickhouse-proxy",
+                  "load-balancer",
+                  "proxy"
+                ]
               },
               "first_seen": "2026-08-28T20:56:09.652Z"
             },
@@ -273,12 +473,29 @@
               "children": [],
               "repo_info": {
                 "archived": false,
+                "description": "A distributed job server built specifically for queuing and executing heavy SQL read jobs asynchronously. Separate out reporting layer from apps. MySQL, Postgres, ClickHouse.",
+                "homepage": null,
                 "id": 116494991,
                 "language": "Go",
+                "license": "MIT",
                 "last_commit": "2026-05-14T08:58:31Z",
+                "open_issues": 12,
                 "owner": "zerodha",
                 "repo": "dungbeetle",
-                "stars": 1265
+                "stars": 1265,
+                "topics": [
+                  "broker-backend",
+                  "database",
+                  "job-queue",
+                  "job-scheduler",
+                  "mysql",
+                  "postgres",
+                  "postgresql",
+                  "reporting",
+                  "sql",
+                  "sql-query",
+                  "workers"
+                ]
               },
               "first_seen": "2026-08-28T20:56:09.652Z"
             },
@@ -289,12 +506,25 @@
               "children": [],
               "repo_info": {
                 "archived": false,
+                "description": "Pipelined Query Language",
+                "homepage": "https://pql.dev",
                 "id": 748871374,
                 "language": "Go",
+                "license": "Apache-2.0",
                 "last_commit": "2025-01-02T18:05:05Z",
+                "open_issues": 7,
                 "owner": "runreveal",
                 "repo": "pql",
-                "stars": 709
+                "stars": 709,
+                "topics": [
+                  "clickhouse",
+                  "detection-engineering",
+                  "go",
+                  "golang",
+                  "query-language",
+                  "siem",
+                  "sql"
+                ]
               },
               "first_seen": "2026-08-28T20:56:09.652Z"
             },
@@ -305,12 +535,21 @@
               "children": [],
               "repo_info": {
                 "archived": false,
+                "description": "Golang SQL database driver for Yandex ClickHouse",
+                "homepage": null,
                 "id": 95426286,
                 "language": "Go",
+                "license": "MIT",
                 "last_commit": "2026-04-08T20:00:57Z",
+                "open_issues": 14,
                 "owner": "mailru",
                 "repo": "go-clickhouse",
-                "stars": 435
+                "stars": 435,
+                "topics": [
+                  "clickhouse",
+                  "database",
+                  "go"
+                ]
               },
               "first_seen": "2026-08-28T20:56:09.652Z"
             },
@@ -321,12 +560,24 @@
               "children": [],
               "repo_info": {
                 "archived": false,
+                "description": "Low-level Go Client for ClickHouse",
+                "homepage": null,
                 "id": 428047243,
                 "language": "Go",
+                "license": "Apache-2.0",
                 "last_commit": "2026-08-21T19:22:30Z",
+                "open_issues": 39,
                 "owner": "ClickHouse",
                 "repo": "ch-go",
-                "stars": 426
+                "stars": 426,
+                "topics": [
+                  "binary",
+                  "clickhouse",
+                  "driver",
+                  "go",
+                  "golang",
+                  "protocol"
+                ]
               },
               "first_seen": "2026-08-28T20:56:09.652Z"
             },
@@ -337,12 +588,22 @@
               "children": [],
               "repo_info": {
                 "archived": false,
+                "description": "Golang ClickHouse client",
+                "homepage": "https://clickhouse.uptrace.dev",
                 "id": 451035290,
                 "language": "Go",
+                "license": "BSD-2-Clause",
                 "last_commit": "2024-02-29T16:28:34Z",
+                "open_issues": 21,
                 "owner": "uptrace",
                 "repo": "go-clickhouse",
-                "stars": 284
+                "stars": 284,
+                "topics": [
+                  "clickhouse",
+                  "database",
+                  "go",
+                  "golang"
+                ]
               },
               "first_seen": "2026-08-28T20:56:09.652Z"
             },
@@ -353,12 +614,21 @@
               "children": [],
               "repo_info": {
                 "archived": false,
+                "description": "Go library and CLI that parses ClickHouse-dialect SQL into a typed AST. Supports lexing, parsing, AST walking, round-trip formatting, and beautification. Use for query linting, static analysis, rewriting,  access-control enforcement, schema validation, and SQL formatting.",
+                "homepage": null,
                 "id": 694946961,
                 "language": "Go",
+                "license": "MIT",
                 "last_commit": "2026-08-28T02:00:49Z",
+                "open_issues": 0,
                 "owner": "AfterShip",
                 "repo": "clickhouse-sql-parser",
-                "stars": 246
+                "stars": 246,
+                "topics": [
+                  "clickhouse",
+                  "go",
+                  "sql-parser"
+                ]
               },
               "first_seen": "2026-08-28T20:56:09.652Z"
             },
@@ -369,12 +639,20 @@
               "children": [],
               "repo_info": {
                 "archived": false,
+                "description": "A curated list of awesome ClickHouse software.",
+                "homepage": "http://awesome-clickhouse.korchasa.dev/",
                 "id": 185589735,
                 "language": "HTML",
+                "license": "CC0-1.0",
                 "last_commit": "2026-08-24T03:24:42Z",
+                "open_issues": 0,
                 "owner": "korchasa",
                 "repo": "awesome-clickhouse",
-                "stars": 196
+                "stars": 196,
+                "topics": [
+                  "awesome-list",
+                  "clickhouse"
+                ]
               },
               "first_seen": "2026-08-28T20:56:09.652Z"
             },
@@ -385,12 +663,24 @@
               "children": [],
               "repo_info": {
                 "archived": false,
+                "description": "Golang ClickHouse connector",
+                "homepage": null,
                 "id": 61634725,
                 "language": "Go",
+                "license": "MIT",
                 "last_commit": "2024-04-16T14:49:01Z",
+                "open_issues": 4,
                 "owner": "roistat",
                 "repo": "go-clickhouse",
-                "stars": 190
+                "stars": 190,
+                "topics": [
+                  "adapter",
+                  "clickhouse",
+                  "client",
+                  "connector",
+                  "go",
+                  "golang"
+                ]
               },
               "first_seen": "2026-08-28T20:56:09.652Z"
             },
@@ -401,12 +691,23 @@
               "children": [],
               "repo_info": {
                 "archived": false,
+                "description": "Low-level ClickHouse database driver for Golang",
+                "homepage": null,
                 "id": 244838756,
                 "language": "Go",
+                "license": "MIT",
                 "last_commit": "2026-08-25T21:00:31Z",
+                "open_issues": 2,
                 "owner": "vahid-sohrabloo",
                 "repo": "chconn",
-                "stars": 160
+                "stars": 160,
+                "topics": [
+                  "clickhouse",
+                  "fast",
+                  "go",
+                  "golang",
+                  "tcp"
+                ]
               },
               "first_seen": "2026-08-28T20:56:09.652Z"
             },
@@ -417,12 +718,22 @@
               "children": [],
               "repo_info": {
                 "archived": false,
+                "description": "Go bindings and cli for chDB, an in-process SQL OLAP Engine powered by ClickHouse",
+                "homepage": "https://chdb.io",
                 "id": 734972901,
                 "language": "Go",
+                "license": "Apache-2.0",
                 "last_commit": "2026-08-24T08:51:04Z",
+                "open_issues": 5,
                 "owner": "chdb-io",
                 "repo": "chdb-go",
-                "stars": 143
+                "stars": 143,
+                "topics": [
+                  "chdb",
+                  "cli",
+                  "clickhouse",
+                  "golang"
+                ]
               },
               "first_seen": "2026-08-28T20:56:09.652Z"
             }
@@ -440,12 +751,22 @@
               "children": [],
               "repo_info": {
                 "archived": false,
+                "description": "ClickHouse Java Clients & JDBC Driver",
+                "homepage": "https://clickhouse.com",
                 "id": 63421322,
                 "language": "Java",
-                "last_commit": "2026-08-27T18:33:31Z",
+                "license": "Apache-2.0",
+                "last_commit": "2026-08-28T23:34:26Z",
+                "open_issues": 171,
                 "owner": "ClickHouse",
                 "repo": "clickhouse-java",
-                "stars": 1616
+                "stars": 1616,
+                "topics": [
+                  "clickhouse",
+                  "java-client",
+                  "jdbc",
+                  "jdbc-driver"
+                ]
               },
               "first_seen": "2026-08-28T20:56:09.652Z"
             },
@@ -456,12 +777,24 @@
               "children": [],
               "repo_info": {
                 "archived": false,
+                "description": "Gluten is a middle layer responsible for offloading JVM-based SQL engines' execution to native engines.",
+                "homepage": "https://gluten.apache.org/",
                 "id": 435375021,
                 "language": "Scala",
+                "license": "Apache-2.0",
                 "last_commit": "2026-08-28T10:24:43Z",
+                "open_issues": 984,
                 "owner": "apache",
                 "repo": "gluten",
-                "stars": 1593
+                "stars": 1593,
+                "topics": [
+                  "arrow",
+                  "clickhouse",
+                  "simd",
+                  "spark-sql",
+                  "vectorization",
+                  "velox"
+                ]
               },
               "first_seen": "2026-08-28T20:56:09.652Z"
             },
@@ -472,12 +805,25 @@
               "children": [],
               "repo_info": {
                 "archived": false,
+                "description": "ClickHouse Native Protocol JDBC implementation",
+                "homepage": "https://housepower.github.io/ClickHouse-Native-JDBC/",
                 "id": 133296782,
                 "language": "Java",
+                "license": "Apache-2.0",
                 "last_commit": "2025-06-22T09:22:59Z",
+                "open_issues": 38,
                 "owner": "housepower",
                 "repo": "ClickHouse-Native-JDBC",
-                "stars": 541
+                "stars": 541,
+                "topics": [
+                  "analytics",
+                  "clickhouse",
+                  "clickhouse-client",
+                  "database",
+                  "jdbc",
+                  "spark",
+                  "tcp-protocol"
+                ]
               },
               "first_seen": "2026-08-28T20:56:09.652Z"
             },
@@ -488,12 +834,23 @@
               "children": [],
               "repo_info": {
                 "archived": true,
+                "description": "ClickHouse database driver for the Metabase business intelligence front-end",
+                "homepage": null,
                 "id": 175096978,
                 "language": "Clojure",
+                "license": "Apache-2.0",
                 "last_commit": "2025-06-13T00:54:21Z",
+                "open_issues": 30,
                 "owner": "ClickHouse",
                 "repo": "metabase-clickhouse-driver",
-                "stars": 509
+                "stars": 509,
+                "topics": [
+                  "analytics",
+                  "bi-tools",
+                  "business-intelligence",
+                  "clickhouse",
+                  "metabase"
+                ]
               },
               "first_seen": "2026-08-28T20:56:09.652Z"
             },
@@ -504,12 +861,22 @@
               "children": [],
               "repo_info": {
                 "archived": false,
+                "description": "Flink SQL connector for ClickHouse. Support ClickHouseCatalog and read/write primary data, maps, arrays to clickhouse.",
+                "homepage": null,
                 "id": 388714036,
                 "language": "Java",
+                "license": "Apache-2.0",
                 "last_commit": "2025-12-20T06:10:11Z",
+                "open_issues": 34,
                 "owner": "itinycheng",
                 "repo": "flink-connector-clickhouse",
-                "stars": 409
+                "stars": 409,
+                "topics": [
+                  "clickhouse",
+                  "connector",
+                  "flink",
+                  "flink-connector"
+                ]
               },
               "first_seen": "2026-08-28T20:56:09.652Z"
             },
@@ -520,12 +887,22 @@
               "children": [],
               "repo_info": {
                 "archived": false,
+                "description": "Flink sink for Clickhouse",
+                "homepage": null,
                 "id": 160082721,
                 "language": "Java",
+                "license": "MIT",
                 "last_commit": "2023-12-05T22:19:55Z",
+                "open_issues": 15,
                 "owner": "ivi-ru",
                 "repo": "flink-clickhouse-sink",
-                "stars": 380
+                "stars": 380,
+                "topics": [
+                  "clickhouse",
+                  "flink",
+                  "flink-clickhouse-sink",
+                  "java"
+                ]
               },
               "first_seen": "2026-08-28T20:56:09.652Z"
             },
@@ -536,12 +913,20 @@
               "children": [],
               "repo_info": {
                 "archived": false,
+                "description": "Lighter and faster alternative for the official ClickHouse JDBC driver",
+                "homepage": null,
                 "id": 203984349,
                 "language": "Java",
+                "license": "NOASSERTION",
                 "last_commit": "2023-02-09T07:15:05Z",
+                "open_issues": 21,
                 "owner": "Blynk-Technologies",
                 "repo": "clickhouse4j",
-                "stars": 215
+                "stars": 215,
+                "topics": [
+                  "java",
+                  "jdbc-driver"
+                ]
               },
               "first_seen": "2026-08-28T20:56:09.652Z"
             },
@@ -552,12 +937,21 @@
               "children": [],
               "repo_info": {
                 "archived": true,
+                "description": "A JDBC proxy from ClickHouse to external databases",
+                "homepage": null,
                 "id": 150110305,
                 "language": "Java",
+                "license": "Apache-2.0",
                 "last_commit": "2025-10-09T21:07:59Z",
+                "open_issues": 41,
                 "owner": "ClickHouse",
                 "repo": "clickhouse-jdbc-bridge",
-                "stars": 176
+                "stars": 176,
+                "topics": [
+                  "clickhouse",
+                  "clickhouse-jdbc-bridge",
+                  "external-database"
+                ]
               },
               "first_seen": "2026-08-28T20:56:09.652Z"
             }
@@ -575,12 +969,26 @@
               "children": [],
               "repo_info": {
                 "archived": false,
+                "description": ".Net aot ORM   SqlServer ORM Mongodb ORM MySql  瀚高 Postgresql ORM  DB2 Hana 高斯 Duckdb C# VB.NET Sqlite  ORM Oracle ORM Mysql Orm 虚谷数据库 达梦 ORM 人大金仓 ORM 神通ORM  C# ORM , C# ORM .NET ORM NET9 ORM .NET8 ORM ClickHouse ORM QuestDb ,TDengine ORM,OceanBase ORM,GaussDB ORM,Tidb ORM Object/Relational Mapping",
+                "homepage": "https://www.donet5.com/Home/Doc",
                 "id": 38992233,
                 "language": "C#",
+                "license": "MIT",
                 "last_commit": "2026-08-19T08:50:11Z",
+                "open_issues": 11,
                 "owner": "DotNetNext",
                 "repo": "SqlSugar",
-                "stars": 5828
+                "stars": 5829,
+                "topics": [
+                  "clickhouse",
+                  "mongodb",
+                  "mysql",
+                  "oralce",
+                  "orm",
+                  "postgresql",
+                  "sqlite",
+                  "sqlsever"
+                ]
               },
               "first_seen": "2026-08-28T20:56:09.652Z"
             },
@@ -591,12 +999,23 @@
               "children": [],
               "repo_info": {
                 "archived": true,
+                "description": "Unofficial .NET client for ClickHouse database",
+                "homepage": null,
                 "id": 215390674,
                 "language": "C#",
+                "license": "MIT",
                 "last_commit": "2025-06-17T13:33:02Z",
+                "open_issues": 53,
                 "owner": "DarkWanderer",
                 "repo": "ClickHouse.Client",
-                "stars": 367
+                "stars": 367,
+                "topics": [
+                  "ado-net",
+                  "clickhouse",
+                  "client",
+                  "database",
+                  "dotnet"
+                ]
               },
               "first_seen": "2026-08-28T20:56:09.652Z"
             },
@@ -607,12 +1026,21 @@
               "children": [],
               "repo_info": {
                 "archived": false,
+                "description": "ClickHouse .NET Core driver",
+                "homepage": null,
                 "id": 254292434,
                 "language": "C#",
+                "license": "Apache-2.0",
                 "last_commit": "2026-07-14T13:53:18Z",
+                "open_issues": 34,
                 "owner": "Octonica",
                 "repo": "ClickHouseClient",
-                "stars": 167
+                "stars": 167,
+                "topics": [
+                  "adonet",
+                  "clickhouse",
+                  "dotnetcore"
+                ]
               },
               "first_seen": "2026-08-28T20:56:09.652Z"
             }
@@ -630,12 +1058,21 @@
               "children": [],
               "repo_info": {
                 "archived": false,
+                "description": "ODBC driver for ClickHouse",
+                "homepage": "https://clickhouse.com",
                 "id": 85320730,
                 "language": "C",
+                "license": "Apache-2.0",
                 "last_commit": "2026-08-18T15:43:22Z",
+                "open_issues": 51,
                 "owner": "ClickHouse",
                 "repo": "clickhouse-odbc",
-                "stars": 286
+                "stars": 286,
+                "topics": [
+                  "clickhouse",
+                  "odbc",
+                  "odbc-driver"
+                ]
               },
               "first_seen": "2026-08-28T20:56:09.652Z"
             }
@@ -653,12 +1090,22 @@
               "children": [],
               "repo_info": {
                 "archived": false,
+                "description": "php ClickHouse wrapper",
+                "homepage": null,
                 "id": 63620693,
                 "language": "PHP",
+                "license": "MIT",
                 "last_commit": "2026-06-13T20:37:26Z",
+                "open_issues": 0,
                 "owner": "smi2",
                 "repo": "phpClickHouse",
-                "stars": 852
+                "stars": 852,
+                "topics": [
+                  "clickhouse",
+                  "php",
+                  "php-clickhouse",
+                  "php-clickhouse-wrapper"
+                ]
               },
               "first_seen": "2026-08-28T20:56:09.652Z"
             },
@@ -669,12 +1116,21 @@
               "children": [],
               "repo_info": {
                 "archived": false,
+                "description": "Fluent queries builder for Clickhouse. Also has integration with Laravel / Lumen.",
+                "homepage": null,
                 "id": 94316605,
                 "language": "PHP",
+                "license": null,
                 "last_commit": "2023-09-27T13:54:57Z",
+                "open_issues": 27,
                 "owner": "the-tinderbox",
                 "repo": "ClickhouseBuilder",
-                "stars": 201
+                "stars": 201,
+                "topics": [
+                  "clickhouse",
+                  "clickhouse-fluent",
+                  "clickhouse-wrapper"
+                ]
               },
               "first_seen": "2026-08-28T20:56:09.652Z"
             },
@@ -685,12 +1141,30 @@
               "children": [],
               "repo_info": {
                 "archived": false,
+                "description": "Laravel ClickHouse adds CH client integration, generation & execution of ClickHouse database migrations to the Laravel application.",
+                "homepage": "https://komarev.com/sources/laravel-clickhouse",
                 "id": 470754925,
                 "language": "PHP",
+                "license": "MIT",
                 "last_commit": "2026-07-27T15:05:59Z",
+                "open_issues": 9,
                 "owner": "cybercog",
                 "repo": "laravel-clickhouse",
-                "stars": 165
+                "stars": 165,
+                "topics": [
+                  "clickhouse",
+                  "clickhouse-client",
+                  "clickhouse-migration",
+                  "cog",
+                  "database",
+                  "database-schema",
+                  "db",
+                  "db-schema",
+                  "laravel",
+                  "migration",
+                  "php",
+                  "schema"
+                ]
               },
               "first_seen": "2026-08-28T20:56:09.652Z"
             },
@@ -701,12 +1175,25 @@
               "children": [],
               "repo_info": {
                 "archived": false,
+                "description": "Doctrine DBAL driver for ClickHouse database",
+                "homepage": null,
                 "id": 79555201,
                 "language": "PHP",
+                "license": "GPL-3.0",
                 "last_commit": "2025-09-26T00:44:56Z",
+                "open_issues": 33,
                 "owner": "FriendsOfDoctrine",
                 "repo": "dbal-clickhouse",
-                "stars": 118
+                "stars": 118,
+                "topics": [
+                  "clickhouse",
+                  "doctrine",
+                  "doctrine-dbal",
+                  "doctrine-orm",
+                  "doctrine2",
+                  "doctrine4",
+                  "symfony"
+                ]
               },
               "first_seen": "2026-08-28T20:56:09.652Z"
             }
@@ -724,12 +1211,38 @@
               "children": [],
               "repo_info": {
                 "archived": false,
+                "description": "GenBI (Generative BI) for AI agents, an open-source, governed text-to-SQL through an open context layer that turns natural-language questions into trusted dashboards, charts, and SQL across 20+ data sources, such as BigQuery, Snowflake, PostgreSQL, ClickHouse, Amazon Redshift, Databricks and more.",
+                "homepage": "https://www.getwren.ai/en/open-core",
                 "id": 771350543,
                 "language": "Python",
+                "license": "NOASSERTION",
                 "last_commit": "2026-08-28T11:24:47Z",
+                "open_issues": 324,
                 "owner": "Canner",
                 "repo": "WrenAI",
-                "stars": 17417
+                "stars": 17419,
+                "topics": [
+                  "ai-agents",
+                  "bigquery",
+                  "business-intelligence",
+                  "charts",
+                  "clickhouse",
+                  "context-engineering",
+                  "dashboard",
+                  "databricks",
+                  "duckdb",
+                  "genbi",
+                  "generative-ai",
+                  "llm",
+                  "mcp",
+                  "postgresql",
+                  "rag",
+                  "semantic-layer",
+                  "snowflake",
+                  "sql",
+                  "text-to-sql",
+                  "text2sql"
+                ]
               },
               "first_seen": "2026-08-28T20:56:09.652Z"
             },
@@ -740,12 +1253,28 @@
               "children": [],
               "repo_info": {
                 "archived": false,
+                "description": "chDB is an in-process OLAP SQL Engine 🚀 powered by ClickHouse ",
+                "homepage": "https://clickhouse.com/chdb",
                 "id": 606433492,
                 "language": "Python",
+                "license": "Apache-2.0",
                 "last_commit": "2026-08-27T17:38:37Z",
+                "open_issues": 38,
                 "owner": "chdb-io",
                 "repo": "chdb",
-                "stars": 2883
+                "stars": 2883,
+                "topics": [
+                  "chdb",
+                  "clickhouse",
+                  "clickhouse-database",
+                  "clickhouse-server",
+                  "data-science",
+                  "database",
+                  "embedded-database",
+                  "olap",
+                  "python",
+                  "sql"
+                ]
               },
               "first_seen": "2026-08-28T20:56:09.652Z"
             },
@@ -756,12 +1285,38 @@
               "children": [],
               "repo_info": {
                 "archived": false,
+                "description": "Open-source AI-powered Security Operations Center — alert fusion, purple-team drills, agent-assisted triage, MITRE ATT&CK investigation. MIT-licensed, self-hostable.",
+                "homepage": "https://tryaisoc.com",
                 "id": 1226971975,
                 "language": "Python",
+                "license": "MIT",
                 "last_commit": "2026-08-24T06:14:35Z",
+                "open_issues": 23,
                 "owner": "beenuar",
                 "repo": "AiSOC",
-                "stars": 2384
+                "stars": 2385,
+                "topics": [
+                  "agentic-ai",
+                  "ai-security",
+                  "alert-triage",
+                  "clickhouse",
+                  "cybersecurity",
+                  "detection-engineering",
+                  "incident-response",
+                  "investigation-ledger",
+                  "langgraph",
+                  "mitre-attack",
+                  "neo4j",
+                  "open-source",
+                  "purple-team",
+                  "security-operations",
+                  "self-hosted",
+                  "siem",
+                  "soar",
+                  "soc",
+                  "threat-detection",
+                  "threat-intelligence"
+                ]
               },
               "first_seen": "2026-08-28T20:56:09.652Z"
             },
@@ -772,12 +1327,23 @@
               "children": [],
               "repo_info": {
                 "archived": false,
+                "description": "ClickHouse Python Driver with native interface support",
+                "homepage": "https://clickhouse-driver.readthedocs.io",
                 "id": 90912724,
                 "language": "Python",
+                "license": "NOASSERTION",
                 "last_commit": "2026-07-22T14:39:20Z",
+                "open_issues": 75,
                 "owner": "mymarilyn",
                 "repo": "clickhouse-driver",
-                "stars": 1302
+                "stars": 1302,
+                "topics": [
+                  "clickhouse",
+                  "database",
+                  "driver",
+                  "native",
+                  "yandex"
+                ]
               },
               "first_seen": "2026-08-28T20:56:09.652Z"
             },
@@ -788,12 +1354,28 @@
               "children": [],
               "repo_info": {
                 "archived": false,
+                "description": "The agent harness for building analytics into your app on top of ClickHouse, Redpanda and other high-performance analytical infrastructure",
+                "homepage": "https://docs.fiveonefour.com/moosestack",
                 "id": 668493044,
                 "language": "Rust",
+                "license": "MIT",
                 "last_commit": "2026-07-31T15:26:18Z",
+                "open_issues": 1,
                 "owner": "514-labs",
                 "repo": "moosestack",
-                "stars": 588
+                "stars": 588,
+                "topics": [
+                  "analytics",
+                  "data",
+                  "dataengineering",
+                  "deployment",
+                  "framework",
+                  "insights",
+                  "metrics",
+                  "python",
+                  "rust",
+                  "typescript"
+                ]
               },
               "first_seen": "2026-08-28T20:56:09.652Z"
             },
@@ -804,12 +1386,20 @@
               "children": [],
               "repo_info": {
                 "archived": false,
+                "description": "Python driver/sqlalchemy/superset connectors",
+                "homepage": null,
                 "id": 463288368,
                 "language": "Python",
-                "last_commit": "2026-08-28T16:03:49Z",
+                "license": "Apache-2.0",
+                "last_commit": "2026-08-28T22:22:48Z",
+                "open_issues": 30,
                 "owner": "ClickHouse",
                 "repo": "clickhouse-connect",
-                "stars": 518
+                "stars": 518,
+                "topics": [
+                  "clickhouse",
+                  "python"
+                ]
               },
               "first_seen": "2026-08-28T20:56:09.652Z"
             },
@@ -820,12 +1410,23 @@
               "children": [],
               "repo_info": {
                 "archived": false,
+                "description": "ClickHouse dialect for SQLAlchemy",
+                "homepage": "https://clickhouse-sqlalchemy.readthedocs.io",
                 "id": 86639356,
                 "language": "Python",
+                "license": "NOASSERTION",
                 "last_commit": "2026-04-08T19:38:56Z",
+                "open_issues": 118,
                 "owner": "xzkostyan",
                 "repo": "clickhouse-sqlalchemy",
-                "stars": 483
+                "stars": 483,
+                "topics": [
+                  "clickhouse",
+                  "database",
+                  "dialect",
+                  "sqlalchemy",
+                  "yandex"
+                ]
               },
               "first_seen": "2026-08-28T20:56:09.652Z"
             },
@@ -836,12 +1437,17 @@
               "children": [],
               "repo_info": {
                 "archived": false,
+                "description": "A Python library for working with the ClickHouse database (https://clickhouse.yandex/)",
+                "homepage": null,
                 "id": 61994655,
                 "language": "Python",
+                "license": "BSD-3-Clause",
                 "last_commit": "2024-06-03T12:23:17Z",
+                "open_issues": 63,
                 "owner": "Infinidat",
                 "repo": "infi.clickhouse_orm",
-                "stars": 420
+                "stars": 420,
+                "topics": []
               },
               "first_seen": "2026-08-28T20:56:09.652Z"
             },
@@ -852,12 +1458,21 @@
               "children": [],
               "repo_info": {
                 "archived": false,
+                "description": "The Clickhouse plugin for dbt (data build tool)",
+                "homepage": "https://clickhouse.com/docs/integrations/dbt",
                 "id": 334164334,
                 "language": "Python",
+                "license": "Apache-2.0",
                 "last_commit": "2026-08-28T15:33:46Z",
+                "open_issues": 135,
                 "owner": "ClickHouse",
                 "repo": "dbt-clickhouse",
-                "stars": 360
+                "stars": 360,
+                "topics": [
+                  "clickhouse",
+                  "database",
+                  "dbt"
+                ]
               },
               "first_seen": "2026-08-28T20:56:09.652Z"
             },
@@ -868,12 +1483,17 @@
               "children": [],
               "repo_info": {
                 "archived": false,
+                "description": null,
+                "homepage": null,
                 "id": 76404566,
                 "language": "Python",
+                "license": "Apache-2.0",
                 "last_commit": "2026-04-24T00:46:23Z",
+                "open_issues": 48,
                 "owner": "cloudflare",
                 "repo": "sqlalchemy-clickhouse",
-                "stars": 325
+                "stars": 325,
+                "topics": []
               },
               "first_seen": "2026-08-28T20:56:09.652Z"
             },
@@ -884,12 +1504,27 @@
               "children": [],
               "repo_info": {
                 "archived": false,
+                "description": "Lightweight async http(s) ClickHouse client for python 3.10+ with types converting",
+                "homepage": "https://aiochclient.readthedocs.io",
                 "id": 147911533,
                 "language": "Python",
+                "license": "MIT",
                 "last_commit": "2026-06-08T19:17:54Z",
+                "open_issues": 13,
                 "owner": "maximdanilchenko",
                 "repo": "aiochclient",
-                "stars": 257
+                "stars": 257,
+                "topics": [
+                  "aiohttp",
+                  "async",
+                  "asyncio",
+                  "clickhouse",
+                  "client",
+                  "database",
+                  "driver",
+                  "httpx",
+                  "python"
+                ]
               },
               "first_seen": "2026-08-28T20:56:09.652Z"
             },
@@ -900,12 +1535,23 @@
               "children": [],
               "repo_info": {
                 "archived": false,
+                "description": "An asyncio ClickHouse Python Driver with native (TCP) interface support.",
+                "homepage": "https://github.com/long2ice/asynch",
                 "id": 290518295,
                 "language": "Python",
+                "license": "Apache-2.0",
                 "last_commit": "2026-08-14T15:55:08Z",
+                "open_issues": 0,
                 "owner": "long2ice",
                 "repo": "asynch",
-                "stars": 244
+                "stars": 244,
+                "topics": [
+                  "asyncio",
+                  "clickhouse",
+                  "driver",
+                  "native",
+                  "yandex"
+                ]
               },
               "first_seen": "2026-08-28T20:56:09.652Z"
             },
@@ -916,12 +1562,21 @@
               "children": [],
               "repo_info": {
                 "archived": false,
+                "description": "Pandas interface for Clickhouse database",
+                "homepage": null,
                 "id": 90137956,
                 "language": "Python",
+                "license": "MIT",
                 "last_commit": "2020-12-21T08:27:15Z",
+                "open_issues": 18,
                 "owner": "kszucs",
                 "repo": "pandahouse",
-                "stars": 238
+                "stars": 238,
+                "topics": [
+                  "clickhouse",
+                  "dataframe",
+                  "pandas"
+                ]
               },
               "first_seen": "2026-08-28T20:56:09.652Z"
             },
@@ -932,12 +1587,23 @@
               "children": [],
               "repo_info": {
                 "archived": false,
+                "description": "Django clickhouse database backend.",
+                "homepage": null,
                 "id": 552393461,
                 "language": "Python",
+                "license": "MIT",
                 "last_commit": "2026-08-09T14:02:21Z",
+                "open_issues": 4,
                 "owner": "jayvynl",
                 "repo": "django-clickhouse-backend",
-                "stars": 199
+                "stars": 199,
+                "topics": [
+                  "clickhouse",
+                  "database",
+                  "django",
+                  "orm",
+                  "python"
+                ]
               },
               "first_seen": "2026-08-28T20:56:09.652Z"
             },
@@ -948,12 +1614,22 @@
               "children": [],
               "repo_info": {
                 "archived": false,
+                "description": "The most popular ClickHouse plugin for Airflow. 🔝 Top-1% downloads on PyPI: https://pypi.org/project/airflow-clickhouse-plugin! Based on mymarilyn/clickhouse-driver.",
+                "homepage": null,
                 "id": 221086439,
                 "language": "Python",
+                "license": "MIT",
                 "last_commit": "2026-08-17T10:21:46Z",
+                "open_issues": 12,
                 "owner": "bryzgaloff",
                 "repo": "airflow-clickhouse-plugin",
-                "stars": 187
+                "stars": 187,
+                "topics": [
+                  "airflow",
+                  "clickhouse",
+                  "python",
+                  "python3"
+                ]
               },
               "first_seen": "2026-08-28T20:56:09.652Z"
             },
@@ -964,12 +1640,24 @@
               "children": [],
               "repo_info": {
                 "archived": false,
+                "description": " aioch - is a library for accessing a ClickHouse database over native interface from the asyncio",
+                "homepage": null,
                 "id": 103985447,
                 "language": "Python",
+                "license": "NOASSERTION",
                 "last_commit": "2022-03-23T15:30:31Z",
+                "open_issues": 11,
                 "owner": "mymarilyn",
                 "repo": "aioch",
-                "stars": 169
+                "stars": 169,
+                "topics": [
+                  "asyncio",
+                  "clickhouse",
+                  "database",
+                  "driver",
+                  "native",
+                  "yandex"
+                ]
               },
               "first_seen": "2026-08-28T20:56:09.652Z"
             },
@@ -980,12 +1668,21 @@
               "children": [],
               "repo_info": {
                 "archived": false,
+                "description": "This project's goal is to build Yandex ClickHouse database into Django project.",
+                "homepage": null,
                 "id": 157212620,
                 "language": "Python",
+                "license": "MIT",
                 "last_commit": "2025-02-19T10:36:46Z",
+                "open_issues": 3,
                 "owner": "carrotquest",
                 "repo": "django-clickhouse",
-                "stars": 105
+                "stars": 105,
+                "topics": [
+                  "clickhouse",
+                  "django",
+                  "python"
+                ]
               },
               "first_seen": "2026-08-28T20:56:09.652Z"
             }
@@ -1003,12 +1700,17 @@
               "children": [],
               "repo_info": {
                 "archived": false,
+                "description": "A Ruby database ActiveRecord driver for ClickHouse",
+                "homepage": null,
                 "id": 101983502,
                 "language": "Ruby",
+                "license": "MIT",
                 "last_commit": "2026-07-22T06:31:52Z",
+                "open_issues": 27,
                 "owner": "PNixx",
                 "repo": "clickhouse-activerecord",
-                "stars": 263
+                "stars": 263,
+                "topics": []
               },
               "first_seen": "2026-08-28T20:56:09.652Z"
             },
@@ -1019,12 +1721,21 @@
               "children": [],
               "repo_info": {
                 "archived": false,
+                "description": "Modern Ruby database driver for ClickHouse",
+                "homepage": "https://clickhouse.yandex/docs/en/",
                 "id": 220491817,
                 "language": "Ruby",
+                "license": "MIT",
                 "last_commit": "2024-06-18T10:12:56Z",
+                "open_issues": 17,
                 "owner": "shlima",
                 "repo": "click_house",
-                "stars": 192
+                "stars": 192,
+                "topics": [
+                  "clickhouse",
+                  "gem",
+                  "ruby"
+                ]
               },
               "first_seen": "2026-08-28T20:56:09.652Z"
             }
@@ -1042,12 +1753,36 @@
               "children": [],
               "repo_info": {
                 "archived": false,
+                "description": "20 MB lightweight cross-platform database client for 90+ databases, including MySQL, PostgreSQL, SQLite, Redis, MongoDB, DuckDB, SQL Server, and Dameng. Built-in AI, MCP Server, CLI, desktop and Docker. | 轻量级跨平台数据库管理工具，支持 MySQL、PostgreSQL、SQLite、Redis、MongoDB、达梦等 90+ 数据库，提供桌面端、Docker、CLI、内置 AI 助手和 MCP Server。",
+                "homepage": "https://dbxio.com",
                 "id": 1224172037,
                 "language": "Rust",
-                "last_commit": "2026-08-28T16:36:13Z",
+                "license": "Apache-2.0",
+                "last_commit": "2026-08-29T01:01:01Z",
+                "open_issues": 1098,
                 "owner": "t8y2",
                 "repo": "dbx",
-                "stars": 17267
+                "stars": 17294,
+                "topics": [
+                  "ai",
+                  "cli",
+                  "clickhouse",
+                  "database",
+                  "database-client",
+                  "database-management",
+                  "docker",
+                  "gui",
+                  "mcp",
+                  "mongodb",
+                  "mysql",
+                  "postgresql",
+                  "redis",
+                  "rust",
+                  "sql-server",
+                  "sqlite",
+                  "tauri",
+                  "vue"
+                ]
               },
               "first_seen": "2026-08-28T20:56:09.652Z"
             },
@@ -1058,12 +1793,23 @@
               "children": [],
               "repo_info": {
                 "archived": false,
+                "description": "Postgres rewritten in Rust, now faster than Postgres and Clickhouse",
+                "homepage": "https://pgrust.com",
                 "id": 1215569807,
                 "language": "Rust",
+                "license": "AGPL-3.0",
                 "last_commit": "2026-08-13T04:01:40Z",
+                "open_issues": 14,
                 "owner": "malisper",
                 "repo": "pgrust",
-                "stars": 4758
+                "stars": 4761,
+                "topics": [
+                  "ai-assisted-development",
+                  "database",
+                  "postgres",
+                  "postgresql",
+                  "rust"
+                ]
               },
               "first_seen": "2026-08-28T20:56:09.652Z"
             },
@@ -1074,12 +1820,25 @@
               "children": [],
               "repo_info": {
                 "archived": false,
+                "description": "Fast SQL formatter/linter",
+                "homepage": "https://playground.quary.dev/docs",
                 "id": 601303277,
                 "language": "Rust",
-                "last_commit": "2026-08-28T20:06:38Z",
+                "license": "Apache-2.0",
+                "last_commit": "2026-08-29T02:42:47Z",
+                "open_issues": 56,
                 "owner": "quarylabs",
                 "repo": "sqruff",
-                "stars": 1380
+                "stars": 1380,
+                "topics": [
+                  "ansi",
+                  "bigquery",
+                  "clickhouse",
+                  "linter",
+                  "rust",
+                  "snowflake",
+                  "sql"
+                ]
               },
               "first_seen": "2026-08-28T20:56:09.652Z"
             },
@@ -1090,12 +1849,36 @@
               "children": [],
               "repo_info": {
                 "archived": false,
+                "description": "Debug your AI agents",
+                "homepage": "https://vllora.dev",
                 "id": 922815783,
                 "language": "Rust",
+                "license": "NOASSERTION",
                 "last_commit": "2026-06-30T12:18:48Z",
+                "open_issues": 29,
                 "owner": "vllora",
                 "repo": "vllora",
-                "stars": 813
+                "stars": 813,
+                "topics": [
+                  "agents",
+                  "ai-agents",
+                  "ai-gateway",
+                  "anthropic",
+                  "azure",
+                  "claude",
+                  "deepseek",
+                  "gemini",
+                  "google-adk",
+                  "langchain",
+                  "llm",
+                  "llm-gateway",
+                  "model-context-protocol",
+                  "openai",
+                  "router",
+                  "rust-lang",
+                  "tracing",
+                  "vercelaisdk"
+                ]
               },
               "first_seen": "2026-08-28T20:56:09.652Z"
             },
@@ -1106,12 +1889,23 @@
               "children": [],
               "repo_info": {
                 "archived": false,
+                "description": "Official pure Rust typed client for ClickHouse DB",
+                "homepage": "https://clickhouse.com",
                 "id": 303940930,
                 "language": "Rust",
+                "license": "Apache-2.0",
                 "last_commit": "2026-08-28T20:21:42Z",
+                "open_issues": 72,
                 "owner": "ClickHouse",
                 "repo": "clickhouse-rs",
-                "stars": 552
+                "stars": 552,
+                "topics": [
+                  "clickhouse",
+                  "http",
+                  "rust",
+                  "streaming",
+                  "tokio"
+                ]
               },
               "first_seen": "2026-08-28T20:56:09.652Z"
             },
@@ -1122,12 +1916,22 @@
               "children": [],
               "repo_info": {
                 "archived": false,
+                "description": "Asynchronous ClickHouse client library for Rust programming language.",
+                "homepage": null,
                 "id": 159049339,
                 "language": "Rust",
+                "license": "MIT",
                 "last_commit": "2024-07-16T18:33:44Z",
+                "open_issues": 67,
                 "owner": "suharev7",
                 "repo": "clickhouse-rs",
-                "stars": 342
+                "stars": 342,
+                "topics": [
+                  "clickhouse",
+                  "clickhouse-client",
+                  "rust",
+                  "tokio"
+                ]
               },
               "first_seen": "2026-08-28T20:56:09.652Z"
             },
@@ -1138,12 +1942,17 @@
               "children": [],
               "repo_info": {
                 "archived": false,
+                "description": "Rust crate for accessing Clickhouse",
+                "homepage": null,
                 "id": 371813600,
                 "language": "Rust",
+                "license": "Apache-2.0",
                 "last_commit": "2026-07-31T13:25:53Z",
+                "open_issues": 22,
                 "owner": "Protryon",
                 "repo": "klickhouse",
-                "stars": 129
+                "stars": 129,
+                "topics": []
               },
               "first_seen": "2026-08-28T20:56:09.652Z"
             }
@@ -1161,12 +1970,24 @@
               "children": [],
               "repo_info": {
                 "archived": false,
+                "description": "Gluten is a middle layer responsible for offloading JVM-based SQL engines' execution to native engines.",
+                "homepage": "https://gluten.apache.org/",
                 "id": 435375021,
                 "language": "Scala",
+                "license": "Apache-2.0",
                 "last_commit": "2026-08-28T10:24:43Z",
+                "open_issues": 984,
                 "owner": "apache",
                 "repo": "gluten",
-                "stars": 1593
+                "stars": 1593,
+                "topics": [
+                  "arrow",
+                  "clickhouse",
+                  "simd",
+                  "spark-sql",
+                  "vectorization",
+                  "velox"
+                ]
               },
               "first_seen": "2026-08-28T20:56:09.652Z"
             },
@@ -1177,12 +1998,24 @@
               "children": [],
               "repo_info": {
                 "archived": false,
+                "description": "Spark ClickHouse Connector build on DataSourceV2 API",
+                "homepage": "https://clickhouse.com/docs/en/integrations/apache-spark",
                 "id": 369723273,
                 "language": "Scala",
+                "license": "Apache-2.0",
                 "last_commit": "2026-08-27T15:23:40Z",
+                "open_issues": 63,
                 "owner": "ClickHouse",
                 "repo": "spark-clickhouse-connector",
-                "stars": 217
+                "stars": 217,
+                "topics": [
+                  "arrow",
+                  "clickhouse",
+                  "datasourcev2",
+                  "grpc",
+                  "http",
+                  "spark"
+                ]
               },
               "first_seen": "2026-08-28T20:56:09.652Z"
             },
@@ -1193,12 +2026,23 @@
               "children": [],
               "repo_info": {
                 "archived": false,
+                "description": "Clickhouse Scala Client with Reactive Streams support",
+                "homepage": null,
                 "id": 86823191,
                 "language": "Scala",
+                "license": "LGPL-3.0",
                 "last_commit": "2026-08-28T07:04:10Z",
+                "open_issues": 5,
                 "owner": "crobox",
                 "repo": "clickhouse-scala-client",
-                "stars": 118
+                "stars": 118,
+                "topics": [
+                  "akka",
+                  "clickhouse",
+                  "reactive",
+                  "reactive-streams",
+                  "scala"
+                ]
               },
               "first_seen": "2026-08-28T20:56:09.652Z"
             }
@@ -1216,12 +2060,38 @@
               "children": [],
               "repo_info": {
                 "archived": false,
+                "description": "MCP Toolbox for Databases is an open source MCP server for databases.",
+                "homepage": "https://mcp-toolbox.dev/documentation/introduction/",
                 "id": 812044182,
                 "language": "Go",
-                "last_commit": "2026-08-28T20:42:15Z",
+                "license": "Apache-2.0",
+                "last_commit": "2026-08-28T22:14:45Z",
+                "open_issues": 245,
                 "owner": "googleapis",
                 "repo": "mcp-toolbox",
-                "stars": 16272
+                "stars": 16273,
+                "topics": [
+                  "agent",
+                  "agents",
+                  "ai",
+                  "bigquery",
+                  "clickhouse",
+                  "cockroachdb",
+                  "database",
+                  "elasticsearch",
+                  "firestore",
+                  "genai",
+                  "llm",
+                  "mcp",
+                  "mongodb",
+                  "mysql",
+                  "oracle",
+                  "postgresql",
+                  "redis",
+                  "server",
+                  "spanner",
+                  "tidb"
+                ]
               },
               "first_seen": "2026-08-28T20:56:09.652Z"
             },
@@ -1232,12 +2102,24 @@
               "children": [],
               "repo_info": {
                 "archived": true,
+                "description": "ClickHouse FDW for PostgreSQL",
+                "homepage": null,
                 "id": 184786765,
                 "language": "C++",
+                "license": "Apache-2.0",
                 "last_commit": "2025-12-29T09:01:28Z",
+                "open_issues": 38,
                 "owner": "ildus",
                 "repo": "clickhouse_fdw",
-                "stars": 275
+                "stars": 275,
+                "topics": [
+                  "binary",
+                  "clickhouse",
+                  "fdw",
+                  "http",
+                  "postgresql",
+                  "pushdown"
+                ]
               },
               "first_seen": "2026-08-28T20:56:09.652Z"
             },
@@ -1248,12 +2130,17 @@
               "children": [],
               "repo_info": {
                 "archived": false,
+                "description": "PostgreSQL's Foreign Data Wrapper For ClickHouse",
+                "homepage": null,
                 "id": 175861145,
                 "language": "C",
+                "license": "NOASSERTION",
                 "last_commit": "2021-01-08T16:40:46Z",
+                "open_issues": 23,
                 "owner": "Percona-Lab",
                 "repo": "clickhousedb_fdw",
-                "stars": 207
+                "stars": 207,
+                "topics": []
               },
               "first_seen": "2026-08-28T20:56:09.652Z"
             }
@@ -1277,12 +2164,38 @@
               "children": [],
               "repo_info": {
                 "archived": false,
+                "description": "Chat2DB is a free, cross-platform, local-first database client and SQL workspace for developers, DBAs, analysts, and data teams. Connect to 40+ databases, manage data, edit and run SQL, and use your own AI model to generate, explain, and optimize queries. Available on desktop, web, Docker, and CLI, with MCP support.",
+                "homepage": "https://chat2db.ai",
                 "id": 656227652,
                 "language": "Java",
-                "last_commit": "2026-08-28T08:01:42Z",
+                "license": "NOASSERTION",
+                "last_commit": "2026-08-28T22:23:24Z",
+                "open_issues": 262,
                 "owner": "OtterMind",
                 "repo": "Chat2DB",
-                "stars": 28048
+                "stars": 28049,
+                "topics": [
+                  "ai",
+                  "clickhouse",
+                  "database",
+                  "database-client",
+                  "database-gui",
+                  "database-management",
+                  "jdbc",
+                  "llm",
+                  "mcp",
+                  "mongodb",
+                  "mysql",
+                  "oracle",
+                  "postgresql",
+                  "redis",
+                  "sql",
+                  "sql-client",
+                  "sql-editor",
+                  "sql-server",
+                  "sqlite",
+                  "text-to-sql"
+                ]
               },
               "first_seen": "2026-08-28T20:56:09.652Z"
             },
@@ -1293,12 +2206,38 @@
               "children": [],
               "repo_info": {
                 "archived": false,
+                "description": "Chat2DB is a free, cross-platform, local-first database client and SQL workspace for developers, DBAs, analysts, and data teams. Connect to 40+ databases, manage data, edit and run SQL, and use your own AI model to generate, explain, and optimize queries. Available on desktop, web, Docker, and CLI, with MCP support.",
+                "homepage": "https://chat2db.ai",
                 "id": 656227652,
                 "language": "Java",
-                "last_commit": "2026-08-28T08:01:42Z",
+                "license": "NOASSERTION",
+                "last_commit": "2026-08-28T22:23:24Z",
+                "open_issues": 262,
                 "owner": "OtterMind",
                 "repo": "Chat2DB",
-                "stars": 28048
+                "stars": 28049,
+                "topics": [
+                  "ai",
+                  "clickhouse",
+                  "database",
+                  "database-client",
+                  "database-gui",
+                  "database-management",
+                  "jdbc",
+                  "llm",
+                  "mcp",
+                  "mongodb",
+                  "mysql",
+                  "oracle",
+                  "postgresql",
+                  "redis",
+                  "sql",
+                  "sql-client",
+                  "sql-editor",
+                  "sql-server",
+                  "sqlite",
+                  "text-to-sql"
+                ]
               },
               "first_seen": "2026-08-28T20:56:09.652Z"
             },
@@ -1309,12 +2248,38 @@
               "children": [],
               "repo_info": {
                 "archived": false,
+                "description": "Database manager for MySQL, PostgreSQL, SQL Server, MongoDB, SQLite and others. Runs under Windows, Linux, Mac or as web application",
+                "homepage": "https://www.dbgate.io",
                 "id": 229959677,
                 "language": "JavaScript",
+                "license": "GPL-3.0",
                 "last_commit": "2026-08-28T12:15:21Z",
+                "open_issues": 452,
                 "owner": "dbgate",
                 "repo": "dbgate",
-                "stars": 7288
+                "stars": 7288,
+                "topics": [
+                  "cassandra",
+                  "clickhouse",
+                  "cockroachdb",
+                  "cosmosdb",
+                  "database-gui",
+                  "database-manager",
+                  "duckdb",
+                  "electron",
+                  "firebird",
+                  "firestore",
+                  "libsql",
+                  "mariadb",
+                  "mongodb",
+                  "mysql",
+                  "oracle",
+                  "postgresql",
+                  "redis",
+                  "sql",
+                  "sql-server",
+                  "sqlite"
+                ]
               },
               "first_seen": "2026-08-28T20:56:09.652Z"
             },
@@ -1325,12 +2290,38 @@
               "children": [],
               "repo_info": {
                 "archived": false,
+                "description": "Open-source desktop SQL workspace for PostgreSQL, MySQL/MariaDB, SQLite and 15+ more databases like DuckDB, ClickHouse, Redis and Firestore. Built-in MCP server for Claude, Cursor and Devin, SQL notebooks and visual EXPLAIN.",
+                "homepage": "https://tabularis.dev",
                 "id": 1142800652,
                 "language": "TypeScript",
+                "license": "Apache-2.0",
                 "last_commit": "2026-08-28T14:59:56Z",
+                "open_issues": 84,
                 "owner": "TabularisDB",
                 "repo": "tabularis",
-                "stars": 4351
+                "stars": 4381,
+                "topics": [
+                  "ai-agent",
+                  "ai-assistant",
+                  "cross-platform",
+                  "database-client",
+                  "database-gui",
+                  "database-tool",
+                  "er-diagram",
+                  "mariadb",
+                  "mcp",
+                  "mcp-server",
+                  "mysql",
+                  "postgresql",
+                  "rust",
+                  "sql",
+                  "sql-editor",
+                  "sql-notebook",
+                  "sqlite",
+                  "tauri",
+                  "typescript",
+                  "visual-query-builder"
+                ]
               },
               "first_seen": "2026-08-28T20:56:09.652Z"
             },
@@ -1341,12 +2332,29 @@
               "children": [],
               "repo_info": {
                 "archived": false,
+                "description": "SQL Database Explorer [SQLite, libSQL, PostgreSQL, MySQL/MariaDB, ClickHouse, DuckDB, Microsoft SQL Server]",
+                "homepage": "https://sql-studio-docs.frectonz.et",
                 "id": 813785478,
                 "language": "Rust",
+                "license": "MIT",
                 "last_commit": "2026-08-26T14:32:48Z",
+                "open_issues": 1,
                 "owner": "frectonz",
                 "repo": "sql-studio",
-                "stars": 3685
+                "stars": 3685,
+                "topics": [
+                  "clickhouse",
+                  "duckdb",
+                  "libsql",
+                  "mariadb",
+                  "microsoft-sql-server",
+                  "mssql",
+                  "mysql",
+                  "postgresql",
+                  "rust",
+                  "sqlite",
+                  "sqlite-browser"
+                ]
               },
               "first_seen": "2026-08-28T20:56:09.652Z"
             },
@@ -1357,12 +2365,27 @@
               "children": [],
               "repo_info": {
                 "archived": false,
+                "description": "Tabix.io UI",
+                "homepage": "https://tabix.io",
                 "id": 84213938,
                 "language": "TypeScript",
+                "license": "NOASSERTION",
                 "last_commit": "2023-01-15T20:02:30Z",
+                "open_issues": 46,
                 "owner": "tabixio",
                 "repo": "tabix",
-                "stars": 2299
+                "stars": 2299,
+                "topics": [
+                  "bi",
+                  "business-intelligence",
+                  "businessintelligence",
+                  "clickhouse",
+                  "dashboard",
+                  "data-analysis",
+                  "data-visualization",
+                  "sql-query",
+                  "tabix"
+                ]
               },
               "first_seen": "2026-08-28T20:56:09.652Z"
             },
@@ -1373,12 +2396,30 @@
               "children": [],
               "repo_info": {
                 "archived": false,
+                "description": "qStudio - Free SQL Analysis Tool",
+                "homepage": "https://www.timestored.com/qstudio/",
                 "id": 59606935,
                 "language": "Java",
+                "license": "Apache-2.0",
                 "last_commit": "2025-12-06T11:10:19Z",
+                "open_issues": 76,
                 "owner": "timestored",
                 "repo": "qstudio",
-                "stars": 1095
+                "stars": 1095,
+                "topics": [
+                  "clickhouse",
+                  "database",
+                  "duckdb",
+                  "duckdb-database",
+                  "gui",
+                  "kdb",
+                  "kdb-q",
+                  "mysql",
+                  "postgresql",
+                  "questdb",
+                  "sql",
+                  "timescaledb"
+                ]
               },
               "first_seen": "2026-08-28T20:56:09.652Z"
             },
@@ -1389,12 +2430,22 @@
               "children": [],
               "repo_info": {
                 "archived": false,
+                "description": "Ready to use log management solution for Kubernetes storing data in ClickHouse and providing web UI.",
+                "homepage": null,
                 "id": 104091832,
                 "language": "Ruby",
+                "license": "Apache-2.0",
                 "last_commit": "2024-09-02T01:29:04Z",
+                "open_issues": 71,
                 "owner": "flant",
                 "repo": "loghouse",
-                "stars": 933
+                "stars": 933,
+                "topics": [
+                  "clickhouse",
+                  "fluentd",
+                  "kubernetes",
+                  "logs"
+                ]
               },
               "first_seen": "2026-08-28T20:56:09.652Z"
             },
@@ -1405,12 +2456,22 @@
               "children": [],
               "repo_info": {
                 "archived": false,
+                "description": "Use CH-UI to work with your data from Click House self-hosted with a user-friendly interface. CH-UI is a modern and feature-rich user interface for ClickHouse databases. It offers an intuitive platform for querying ClickHouse databases, executing queries, and visualizing metrics about your instance.",
+                "homepage": "https://ch-ui.com",
                 "id": 801710502,
                 "language": "Go",
-                "last_commit": "2026-08-23T18:54:35Z",
+                "license": "Apache-2.0",
+                "last_commit": "2026-08-28T23:13:49Z",
+                "open_issues": 2,
                 "owner": "caioricciuti",
                 "repo": "ch-ui",
-                "stars": 706
+                "stars": 706,
+                "topics": [
+                  "big-data",
+                  "big-data-analytics",
+                  "big-data-visualization",
+                  "clickhouse-ui"
+                ]
               },
               "first_seen": "2026-08-28T20:56:09.652Z"
             },
@@ -1421,12 +2482,38 @@
               "children": [],
               "repo_info": {
                 "archived": false,
+                "description": "Simple, easy-to-use database manager",
+                "homepage": "https://dataflare.app",
                 "id": 706571494,
                 "language": "TypeScript",
+                "license": "AGPL-3.0",
                 "last_commit": "2026-08-25T07:54:33Z",
+                "open_issues": 84,
                 "owner": "DataflareApp",
                 "repo": "dataflare",
-                "stars": 606
+                "stars": 606,
+                "topics": [
+                  "bigquery",
+                  "clickhouse",
+                  "cloudflare-d1",
+                  "cloudflare-r2",
+                  "cockroachdb",
+                  "database-manager",
+                  "databend",
+                  "databricks",
+                  "duckdb",
+                  "mariadb",
+                  "mysql",
+                  "postgresql",
+                  "questdb",
+                  "redis",
+                  "rqlite",
+                  "sqlite",
+                  "sqlserver",
+                  "turso",
+                  "workers-analytics-engine",
+                  "workers-kv"
+                ]
               },
               "first_seen": "2026-08-28T20:56:09.652Z"
             },
@@ -1437,12 +2524,38 @@
               "children": [],
               "repo_info": {
                 "archived": false,
+                "description": "Simple, easy-to-use database manager",
+                "homepage": "https://dataflare.app",
                 "id": 706571494,
                 "language": "TypeScript",
+                "license": "AGPL-3.0",
                 "last_commit": "2026-08-25T07:54:33Z",
+                "open_issues": 84,
                 "owner": "DataflareApp",
                 "repo": "dataflare",
-                "stars": 606
+                "stars": 606,
+                "topics": [
+                  "bigquery",
+                  "clickhouse",
+                  "cloudflare-d1",
+                  "cloudflare-r2",
+                  "cockroachdb",
+                  "database-manager",
+                  "databend",
+                  "databricks",
+                  "duckdb",
+                  "mariadb",
+                  "mysql",
+                  "postgresql",
+                  "questdb",
+                  "redis",
+                  "rqlite",
+                  "sqlite",
+                  "sqlserver",
+                  "turso",
+                  "workers-analytics-engine",
+                  "workers-kv"
+                ]
               },
               "first_seen": "2026-08-28T20:56:09.652Z"
             },
@@ -1453,12 +2566,26 @@
               "children": [],
               "repo_info": {
                 "archived": false,
+                "description": "A fast viewer for CSV/Parquet files and databases such as DuckDB, SQLite, PostgreSQL, MySQL, Clickhouse, etc., base on Tauri",
+                "homepage": "https://l1xnan.github.io/duckling/",
                 "id": 702280755,
                 "language": "TypeScript",
+                "license": "MIT",
                 "last_commit": "2026-08-20T11:42:57Z",
+                "open_issues": 59,
                 "owner": "l1xnan",
                 "repo": "duckling",
-                "stars": 577
+                "stars": 577,
+                "topics": [
+                  "clickhouse",
+                  "duckdb",
+                  "mysql",
+                  "parquet",
+                  "postgresql",
+                  "rust",
+                  "sqlite",
+                  "tauri"
+                ]
               },
               "first_seen": "2026-08-28T20:56:09.652Z"
             },
@@ -1469,12 +2596,26 @@
               "children": [],
               "repo_info": {
                 "archived": false,
+                "description": "Full platform database management tool, supports ClickHouse, Presto, Trino, MySQL, PostgreSQL, Apache Druid, ElasticSearch...",
+                "homepage": "https://dbm.edurt.io",
                 "id": 368840541,
                 "language": "TypeScript",
+                "license": "Apache-2.0",
                 "last_commit": "2024-01-29T14:56:54Z",
+                "open_issues": 18,
                 "owner": "devlive-community",
                 "repo": "dbm",
-                "stars": 404
+                "stars": 404,
+                "topics": [
+                  "clickhouse",
+                  "database",
+                  "electron",
+                  "mysql",
+                  "postgresql",
+                  "presto",
+                  "sql",
+                  "trino"
+                ]
               },
               "first_seen": "2026-08-28T20:56:09.652Z"
             },
@@ -1485,12 +2626,17 @@
               "children": [],
               "repo_info": {
                 "archived": false,
+                "description": "A simple ClickHouse client.",
+                "homepage": null,
                 "id": 129039586,
                 "language": "JavaScript",
+                "license": "MIT",
                 "last_commit": "2022-11-10T19:59:52Z",
+                "open_issues": 22,
                 "owner": "HouseOps",
                 "repo": "HouseOps",
-                "stars": 345
+                "stars": 345,
+                "topics": []
               },
               "first_seen": "2026-08-28T20:56:09.652Z"
             },
@@ -1501,12 +2647,36 @@
               "children": [],
               "repo_info": {
                 "archived": false,
+                "description": "A modern, AI-assisted, cross-platform database client - free",
+                "homepage": null,
                 "id": 1014093587,
                 "language": "TypeScript",
+                "license": "MIT",
                 "last_commit": "2026-02-09T18:14:31Z",
+                "open_issues": 20,
                 "owner": "DataPupOrg",
                 "repo": "DataPup",
-                "stars": 309
+                "stars": 309,
+                "topics": [
+                  "ai-agent",
+                  "clickhouse",
+                  "clickhouse-database",
+                  "database",
+                  "desktop-app",
+                  "electron-app",
+                  "electronjs",
+                  "good-first-contribution",
+                  "linux-desktop",
+                  "mac-app",
+                  "mysql",
+                  "mysql-connector",
+                  "postgresql",
+                  "postgressql",
+                  "react",
+                  "sql-query",
+                  "typescipt",
+                  "windows-desktop"
+                ]
               },
               "first_seen": "2026-08-28T20:56:09.652Z"
             },
@@ -1517,12 +2687,28 @@
               "children": [],
               "repo_info": {
                 "archived": false,
+                "description": "AI Powered Analytics",
+                "homepage": "https://agx.app",
                 "id": 858952634,
                 "language": "Svelte",
+                "license": "MIT",
                 "last_commit": "2026-03-10T14:47:41Z",
+                "open_issues": 5,
                 "owner": "agnosticeng",
                 "repo": "agx",
-                "stars": 257
+                "stars": 257,
+                "topics": [
+                  "ai",
+                  "business-intelligence",
+                  "clickhouse",
+                  "d3",
+                  "data",
+                  "dataviz",
+                  "ollama",
+                  "rust",
+                  "sql",
+                  "svelte"
+                ]
               },
               "first_seen": "2026-08-28T20:56:09.652Z"
             },
@@ -1533,12 +2719,17 @@
               "children": [],
               "repo_info": {
                 "archived": false,
+                "description": "Project rename TABIX, this repo depreciation see https://tabix.io/doc/ https://github.com/smi2/tabix.ui",
+                "homepage": "https://tabix.io",
                 "id": 65743771,
                 "language": "JavaScript",
+                "license": "MIT",
                 "last_commit": "2017-04-03T06:39:13Z",
+                "open_issues": 0,
                 "owner": "smi2",
                 "repo": "clickhouse-frontend",
-                "stars": 162
+                "stars": 162,
+                "topics": []
               },
               "first_seen": "2026-08-28T20:56:09.652Z"
             },
@@ -1549,12 +2740,17 @@
               "children": [],
               "repo_info": {
                 "archived": false,
+                "description": "The home of the ClickHouse design system and component library.",
+                "homepage": "https://clickhouse.design/click-ui",
                 "id": 615461459,
                 "language": "TypeScript",
+                "license": "Apache-2.0",
                 "last_commit": "2026-08-28T15:45:38Z",
+                "open_issues": 96,
                 "owner": "ClickHouse",
                 "repo": "click-ui",
-                "stars": 134
+                "stars": 134,
+                "topics": []
               },
               "first_seen": "2026-08-28T20:56:09.652Z"
             },
@@ -1565,12 +2761,23 @@
               "children": [],
               "repo_info": {
                 "archived": false,
+                "description": "Advanced User-Interface for ClickHouse",
+                "homepage": "https://metrico.github.io/clickhouse-mate/",
                 "id": 480459141,
                 "language": "TypeScript",
+                "license": "AGPL-3.0",
                 "last_commit": "2023-03-21T19:42:52Z",
+                "open_issues": 7,
                 "owner": "metrico",
                 "repo": "clickhouse-mate",
-                "stars": 102
+                "stars": 102,
+                "topics": [
+                  "clickhouse",
+                  "clickhouse-client",
+                  "clickhouse-server",
+                  "cloki",
+                  "sql"
+                ]
               },
               "first_seen": "2026-08-28T20:56:09.652Z"
             }
@@ -1588,12 +2795,35 @@
               "children": [],
               "repo_info": {
                 "archived": false,
+                "description": "🚀 A lightweight, framework-agnostic database migration tool.",
+                "homepage": null,
                 "id": 46880661,
                 "language": "Go",
+                "license": "MIT",
                 "last_commit": "2026-08-26T17:36:49Z",
+                "open_issues": 50,
                 "owner": "amacneil",
                 "repo": "dbmate",
-                "stars": 7250
+                "stars": 7257,
+                "topics": [
+                  "clickhouse",
+                  "cpp",
+                  "database",
+                  "database-migrations",
+                  "database-schema",
+                  "docker",
+                  "go",
+                  "golang",
+                  "migration",
+                  "migrations",
+                  "mysql",
+                  "nodejs",
+                  "postgres",
+                  "postgresql",
+                  "python",
+                  "rust",
+                  "sqlite"
+                ]
               },
               "first_seen": "2026-08-28T20:56:09.652Z"
             },
@@ -1604,12 +2834,31 @@
               "children": [],
               "repo_info": {
                 "archived": false,
+                "description": "Sensible database change management",
+                "homepage": "https://sqitch.org",
                 "id": 3280939,
                 "language": "Perl",
+                "license": "MIT",
                 "last_commit": "2026-08-23T23:52:38Z",
+                "open_issues": 83,
                 "owner": "sqitchers",
                 "repo": "sqitch",
-                "stars": 3157
+                "stars": 3157,
+                "topics": [
+                  "clickhouse",
+                  "cockroachdb",
+                  "database",
+                  "exasol",
+                  "firebird",
+                  "mysql",
+                  "oracle",
+                  "postgresql",
+                  "snowflake",
+                  "sqitch",
+                  "sqlite",
+                  "vertica",
+                  "yugabytedb"
+                ]
               },
               "first_seen": "2026-08-28T20:56:09.652Z"
             },
@@ -1620,12 +2869,19 @@
               "children": [],
               "repo_info": {
                 "archived": false,
+                "description": "Dig into ClickHouse with TUI interface.",
+                "homepage": "https://github.com/azat/chdig/blob/main/Documentation/Features.md",
                 "id": 592066633,
                 "language": "Rust",
+                "license": "MIT",
                 "last_commit": "2026-08-28T07:19:43Z",
+                "open_issues": 5,
                 "owner": "azat",
                 "repo": "chdig",
-                "stars": 292
+                "stars": 292,
+                "topics": [
+                  "clickhouse"
+                ]
               },
               "first_seen": "2026-08-28T20:56:09.652Z"
             },
@@ -1636,12 +2892,19 @@
               "children": [],
               "repo_info": {
                 "archived": false,
+                "description": "A third-party client for the Clickhouse DBMS server.",
+                "homepage": null,
                 "id": 70456470,
                 "language": "Python",
+                "license": "NOASSERTION",
                 "last_commit": "2026-03-08T15:01:21Z",
+                "open_issues": 11,
                 "owner": "hatarist",
                 "repo": "clickhouse-cli",
-                "stars": 265
+                "stars": 265,
+                "topics": [
+                  "clickhouse"
+                ]
               },
               "first_seen": "2026-08-28T20:56:09.652Z"
             },
@@ -1652,12 +2915,17 @@
               "children": [],
               "repo_info": {
                 "archived": false,
+                "description": "CLI utility for build flamegraph based on system.trace_log",
+                "homepage": null,
                 "id": 206917473,
                 "language": "Go",
+                "license": "MIT",
                 "last_commit": "2026-08-20T20:29:00Z",
+                "open_issues": 5,
                 "owner": "Slach",
                 "repo": "clickhouse-flamegraph",
-                "stars": 223
+                "stars": 223,
+                "topics": []
               },
               "first_seen": "2026-08-28T20:56:09.652Z"
             },
@@ -1668,12 +2936,28 @@
               "children": [],
               "repo_info": {
                 "archived": false,
+                "description": "JSONBench: a Benchmark For Data Analytics On JSON",
+                "homepage": "https://jsonbench.com/",
                 "id": 922274030,
                 "language": "Shell",
+                "license": "NOASSERTION",
                 "last_commit": "2026-03-08T10:52:03Z",
+                "open_issues": 10,
                 "owner": "ClickHouse",
                 "repo": "JSONBench",
-                "stars": 183
+                "stars": 183,
+                "topics": [
+                  "analytics",
+                  "benchmark",
+                  "clickhouse",
+                  "database",
+                  "duckdb",
+                  "elasticsearch",
+                  "json",
+                  "mongodb",
+                  "postgresql",
+                  "sql"
+                ]
               },
               "first_seen": "2026-08-28T20:56:09.652Z"
             }
@@ -1691,12 +2975,38 @@
               "children": [],
               "repo_info": {
                 "archived": false,
+                "description": "MCP Toolbox for Databases is an open source MCP server for databases.",
+                "homepage": "https://mcp-toolbox.dev/documentation/introduction/",
                 "id": 812044182,
                 "language": "Go",
-                "last_commit": "2026-08-28T20:42:15Z",
+                "license": "Apache-2.0",
+                "last_commit": "2026-08-28T22:14:45Z",
+                "open_issues": 245,
                 "owner": "googleapis",
                 "repo": "mcp-toolbox",
-                "stars": 16272
+                "stars": 16273,
+                "topics": [
+                  "agent",
+                  "agents",
+                  "ai",
+                  "bigquery",
+                  "clickhouse",
+                  "cockroachdb",
+                  "database",
+                  "elasticsearch",
+                  "firestore",
+                  "genai",
+                  "llm",
+                  "mcp",
+                  "mongodb",
+                  "mysql",
+                  "oracle",
+                  "postgresql",
+                  "redis",
+                  "server",
+                  "spanner",
+                  "tidb"
+                ]
               },
               "first_seen": "2026-08-28T20:56:09.652Z"
             },
@@ -1707,12 +3017,38 @@
               "children": [],
               "repo_info": {
                 "archived": false,
+                "description": "Chat-based SQL Client and Editor for the next decade",
+                "homepage": "https://sqlchat.ai",
                 "id": 614656648,
                 "language": "TypeScript",
+                "license": "MIT",
                 "last_commit": "2026-04-21T03:03:56Z",
+                "open_issues": 24,
                 "owner": "sqlchat",
                 "repo": "sqlchat",
-                "stars": 5846
+                "stars": 5846,
+                "topics": [
+                  "chatgpt",
+                  "clickhouse",
+                  "cockroachdb",
+                  "gpt",
+                  "mongodb",
+                  "mssql",
+                  "mysql",
+                  "openai",
+                  "oracle",
+                  "postgres",
+                  "redis",
+                  "snowflake",
+                  "sql",
+                  "sqlclient",
+                  "sqleditor",
+                  "sqlite",
+                  "sqlserver",
+                  "text-to-sql",
+                  "text2sql",
+                  "tidb"
+                ]
               },
               "first_seen": "2026-08-28T20:56:09.652Z"
             },
@@ -1723,12 +3059,38 @@
               "children": [],
               "repo_info": {
                 "archived": false,
+                "description": "Where data access meets operational intelligence",
+                "homepage": "https://whodb.com",
                 "id": 813564769,
                 "language": "Go",
-                "last_commit": "2026-08-28T17:54:02Z",
+                "license": "Apache-2.0",
+                "last_commit": "2026-08-29T03:28:46Z",
+                "open_issues": 32,
                 "owner": "clidey",
                 "repo": "whodb",
-                "stars": 5016
+                "stars": 5017,
+                "topics": [
+                  "ai-agent",
+                  "data-catalog",
+                  "data-governance",
+                  "data-integration",
+                  "data-lineage",
+                  "data-pipeline",
+                  "data-platform",
+                  "database-management",
+                  "er-diagram",
+                  "internal-tools",
+                  "mcp-server",
+                  "model-context-protocol",
+                  "mysql",
+                  "oracle",
+                  "postgresql",
+                  "self-hosted",
+                  "sql-editor",
+                  "sqlserver",
+                  "text-to-sql",
+                  "visual-query-builder"
+                ]
               },
               "first_seen": "2026-08-28T20:56:09.652Z"
             },
@@ -1739,12 +3101,26 @@
               "children": [],
               "repo_info": {
                 "archived": false,
+                "description": "AI-powered tool for working with Postgres, MySQL, MSSQL and Clickhouse.",
+                "homepage": "https://conar.app",
                 "id": 895089213,
                 "language": "TypeScript",
+                "license": "AGPL-3.0",
                 "last_commit": "2026-08-27T07:22:46Z",
+                "open_issues": 46,
                 "owner": "wannabespace",
                 "repo": "conar",
-                "stars": 1435
+                "stars": 1435,
+                "topics": [
+                  "ai",
+                  "clickhouse",
+                  "connection",
+                  "database",
+                  "management",
+                  "mssql",
+                  "mysql",
+                  "postgresql"
+                ]
               },
               "first_seen": "2026-08-28T20:56:09.652Z"
             },
@@ -1755,12 +3131,36 @@
               "children": [],
               "repo_info": {
                 "archived": false,
+                "description": "Universal MCP-Server for your Databases optimized for LLMs and AI-Agents.",
+                "homepage": "https://centralmind.ai",
                 "id": 930532297,
                 "language": "Go",
+                "license": "Apache-2.0",
                 "last_commit": "2025-07-18T16:15:36Z",
+                "open_issues": 15,
                 "owner": "centralmind",
                 "repo": "gateway",
-                "stars": 546
+                "stars": 546,
+                "topics": [
+                  "amazon-bedrock",
+                  "anthropic-claude",
+                  "api",
+                  "automatic-api",
+                  "clickhouse",
+                  "duckdb",
+                  "elasticsearch",
+                  "golang",
+                  "google-vertex-ai",
+                  "llm",
+                  "mcp",
+                  "mysql-database",
+                  "openai",
+                  "oracle-database",
+                  "postgresql",
+                  "rest-api",
+                  "snowflake",
+                  "supabase"
+                ]
               },
               "first_seen": "2026-08-28T20:56:09.652Z"
             },
@@ -1771,12 +3171,31 @@
               "children": [],
               "repo_info": {
                 "archived": false,
+                "description": "The Boring query platform - Connect and query anything",
+                "homepage": "https://agent.qwery.run",
                 "id": 1091257367,
                 "language": "TypeScript",
+                "license": "MIT",
                 "last_commit": "2026-08-01T01:34:26Z",
+                "open_issues": 52,
                 "owner": "Guepard-Corp",
                 "repo": "qwery-core",
-                "stars": 134
+                "stars": 134,
+                "topics": [
+                  "agentic-ai",
+                  "ai",
+                  "clickhouse",
+                  "data-engineering",
+                  "database",
+                  "duckdb",
+                  "guepard",
+                  "mongodb",
+                  "mysql",
+                  "nosql",
+                  "postgresql",
+                  "sql",
+                  "sqlserver"
+                ]
               },
               "first_seen": "2026-08-28T20:56:09.652Z"
             }
@@ -1800,12 +3219,27 @@
               "children": [],
               "repo_info": {
                 "archived": false,
+                "description": "Jitsu is an open-source Segment alternative. Fully-scriptable data ingestion engine for modern data teams. Set-up a real-time data pipeline in minutes, not days",
+                "homepage": "https://jitsu.com",
                 "id": 285012857,
                 "language": "TypeScript",
+                "license": "MIT",
                 "last_commit": "2026-08-28T13:38:38Z",
+                "open_issues": 32,
                 "owner": "jitsucom",
                 "repo": "jitsu",
-                "stars": 5053
+                "stars": 5056,
+                "topics": [
+                  "bigquery",
+                  "clickhouse",
+                  "data-collection",
+                  "data-connectors",
+                  "data-integration",
+                  "golang",
+                  "postgres",
+                  "redshift",
+                  "snowflake"
+                ]
               },
               "first_seen": "2026-08-28T20:56:09.652Z"
             },
@@ -1816,12 +3250,32 @@
               "children": [],
               "repo_info": {
                 "archived": false,
+                "description": "Dozer is a real-time data movement tool that leverages CDC from various sources and moves data into various sinks. ",
+                "homepage": "https://getdozer.io",
                 "id": 531051081,
                 "language": "Rust",
+                "license": "AGPL-3.0",
                 "last_commit": "2024-06-18T22:23:39Z",
+                "open_issues": 161,
                 "owner": "getdozer",
                 "repo": "dozer",
-                "stars": 1580
+                "stars": 1580,
+                "topics": [
+                  "api",
+                  "apis",
+                  "clickhouse",
+                  "data",
+                  "datawarehouse",
+                  "debe",
+                  "etl",
+                  "low-code",
+                  "postgres",
+                  "realtime",
+                  "rust",
+                  "snowflake",
+                  "sql",
+                  "streaming"
+                ]
               },
               "first_seen": "2026-08-28T20:56:09.652Z"
             },
@@ -1832,12 +3286,23 @@
               "children": [],
               "repo_info": {
                 "archived": false,
+                "description": "Data syncing in golang for ClickHouse.",
+                "homepage": null,
                 "id": 315848971,
                 "language": "Go",
+                "license": "MIT",
                 "last_commit": "2025-06-07T15:41:58Z",
+                "open_issues": 3,
                 "owner": "zeromicro",
                 "repo": "cds",
-                "stars": 979
+                "stars": 979,
+                "topics": [
+                  "bigdata",
+                  "clickhouse",
+                  "go",
+                  "golang",
+                  "kafka-consumer"
+                ]
               },
               "first_seen": "2026-08-28T20:56:09.652Z"
             },
@@ -1848,12 +3313,33 @@
               "children": [],
               "repo_info": {
                 "archived": false,
+                "description": "ApeCloud's Data Transfer Suite, written in Rust. Provides ultra-fast data replication between MySQL, PostgreSQL, Redis, MongoDB, Kafka and ClickHouse, ideal for disaster recovery (DR) and migration scenarios.",
+                "homepage": null,
                 "id": 587995044,
                 "language": "Rust",
+                "license": "AGPL-3.0",
                 "last_commit": "2026-08-28T09:08:45Z",
+                "open_issues": 54,
                 "owner": "apecloud",
                 "repo": "ape-dts",
-                "stars": 594
+                "stars": 594,
+                "topics": [
+                  "binlog",
+                  "cdc",
+                  "clickhouse",
+                  "data-migration",
+                  "data-transfer",
+                  "doris",
+                  "etl",
+                  "kafka-connect",
+                  "migration",
+                  "mongo",
+                  "mysql",
+                  "postgresql",
+                  "redis",
+                  "rust",
+                  "starrocks"
+                ]
               },
               "first_seen": "2026-08-28T20:56:09.652Z"
             },
@@ -1864,12 +3350,22 @@
               "children": [],
               "repo_info": {
                 "archived": false,
+                "description": "Easily load data  from kafka to ClickHouse",
+                "homepage": "https://housepower.github.io/clickhouse_sinker",
                 "id": 135541368,
                 "language": "Go",
+                "license": "Apache-2.0",
                 "last_commit": "2026-08-04T06:52:26Z",
+                "open_issues": 14,
                 "owner": "housepower",
                 "repo": "clickhouse_sinker",
-                "stars": 533
+                "stars": 533,
+                "topics": [
+                  "clickhouse",
+                  "clickhouse-bulk",
+                  "clickhouse-server",
+                  "kafka"
+                ]
               },
               "first_seen": "2026-08-28T20:56:09.652Z"
             },
@@ -1880,12 +3376,21 @@
               "children": [],
               "repo_info": {
                 "archived": false,
+                "description": "Collects many small inserts to ClickHouse and send in big inserts",
+                "homepage": null,
                 "id": 89779028,
                 "language": "Go",
+                "license": "Apache-2.0",
                 "last_commit": "2026-08-25T21:01:01Z",
+                "open_issues": 14,
                 "owner": "nikepan",
                 "repo": "clickhouse-bulk",
-                "stars": 512
+                "stars": 512,
+                "topics": [
+                  "clickhouse",
+                  "clickhouse-bulk",
+                  "clickhouse-server"
+                ]
               },
               "first_seen": "2026-08-28T20:56:09.652Z"
             },
@@ -1896,12 +3401,29 @@
               "children": [],
               "repo_info": {
                 "archived": false,
+                "description": "StorageTapper is a scalable realtime MySQL change data streaming, logical backup and logical replication service",
+                "homepage": null,
                 "id": 90499311,
                 "language": "Go",
+                "license": "MIT",
                 "last_commit": "2023-03-19T22:39:47Z",
+                "open_issues": 24,
                 "owner": "uber",
                 "repo": "storagetapper",
-                "stars": 363
+                "stars": 363,
+                "topics": [
+                  "avro",
+                  "cdc",
+                  "clickhouse",
+                  "etl",
+                  "hdfs",
+                  "json",
+                  "kafka",
+                  "msgpack",
+                  "mysql",
+                  "postgresql",
+                  "s3"
+                ]
               },
               "first_seen": "2026-08-28T20:56:09.652Z"
             },
@@ -1912,12 +3434,25 @@
               "children": [],
               "repo_info": {
                 "archived": false,
+                "description": "Sync data from the other DB to ClickHouse(cluster)",
+                "homepage": "https://github.com/long2ice/synch",
                 "id": 240656296,
                 "language": "Python",
+                "license": "Apache-2.0",
                 "last_commit": "2024-05-21T19:25:41Z",
+                "open_issues": 13,
                 "owner": "long2ice",
                 "repo": "synch",
-                "stars": 357
+                "stars": 357,
+                "topics": [
+                  "clickhouse",
+                  "data-etl",
+                  "increment-etl",
+                  "kafka",
+                  "mysql",
+                  "postgresql",
+                  "replication"
+                ]
               },
               "first_seen": "2026-08-28T20:56:09.652Z"
             },
@@ -1928,12 +3463,29 @@
               "children": [],
               "repo_info": {
                 "archived": false,
+                "description": "Replicate data from MySQL, Postgres and MongoDB to ClickHouse®",
+                "homepage": "https://www.altinity.com",
                 "id": 472249049,
                 "language": "Python",
-                "last_commit": "2026-08-28T11:29:15Z",
+                "license": "Apache-2.0",
+                "last_commit": "2026-08-28T21:10:55Z",
+                "open_issues": 171,
                 "owner": "Altinity",
                 "repo": "clickhouse-sink-connector",
-                "stars": 343
+                "stars": 343,
+                "topics": [
+                  "avro",
+                  "cdc",
+                  "clickhouse",
+                  "debezium",
+                  "kafka",
+                  "kafka-connect",
+                  "mongo",
+                  "mysql",
+                  "postgresql",
+                  "replication",
+                  "sqlserver"
+                ]
               },
               "first_seen": "2026-08-28T20:56:09.652Z"
             },
@@ -1944,12 +3496,22 @@
               "children": [],
               "repo_info": {
                 "archived": false,
+                "description": "ClickHouse Kafka Connector",
+                "homepage": null,
                 "id": 505744137,
                 "language": "Java",
+                "license": "Apache-2.0",
                 "last_commit": "2026-08-05T17:53:15Z",
+                "open_issues": 98,
                 "owner": "ClickHouse",
                 "repo": "clickhouse-kafka-connect",
-                "stars": 209
+                "stars": 209,
+                "topics": [
+                  "clickhouse",
+                  "kafka",
+                  "kafka-connect",
+                  "sink"
+                ]
               },
               "first_seen": "2026-08-28T20:56:09.652Z"
             },
@@ -1960,12 +3522,25 @@
               "children": [],
               "repo_info": {
                 "archived": true,
+                "description": "Programmable database gateway",
+                "homepage": "https://quesma.com",
                 "id": 794893546,
                 "language": "Go",
+                "license": "NOASSERTION",
                 "last_commit": "2025-11-06T15:25:35Z",
+                "open_issues": 51,
                 "owner": "QuesmaOrg",
                 "repo": "quesma",
-                "stars": 184
+                "stars": 184,
+                "topics": [
+                  "clickhouse",
+                  "database",
+                  "elasticsearch",
+                  "gateway",
+                  "kibana",
+                  "opensearch",
+                  "opensearch-dashboards"
+                ]
               },
               "first_seen": "2026-08-28T20:56:09.652Z"
             },
@@ -1976,12 +3551,25 @@
               "children": [],
               "repo_info": {
                 "archived": false,
+                "description": "Simple nginx logs parser & transporter to ClickHouse database.",
+                "homepage": null,
                 "id": 103838578,
                 "language": "Go",
+                "license": "Apache-2.0",
                 "last_commit": "2026-07-25T19:42:57Z",
+                "open_issues": 0,
                 "owner": "mintance",
                 "repo": "nginx-clickhouse",
-                "stars": 159
+                "stars": 159,
+                "topics": [
+                  "analytics",
+                  "clickhouse",
+                  "grafana",
+                  "logs",
+                  "monitoring",
+                  "nginx",
+                  "prometheus"
+                ]
               },
               "first_seen": "2026-08-28T20:56:09.652Z"
             }
@@ -1999,12 +3587,37 @@
               "children": [],
               "repo_info": {
                 "archived": false,
+                "description": "Resolve production issues, fast. An open source observability platform unifying session replays, logs, metrics, traces and errors powered by ClickHouse and OpenTelemetry.",
+                "homepage": "https://hyperdx.io/",
                 "id": 690825026,
                 "language": "TypeScript",
-                "last_commit": "2026-08-28T20:53:53Z",
+                "license": "MIT",
+                "last_commit": "2026-08-29T02:19:08Z",
+                "open_issues": 183,
                 "owner": "hyperdxio",
                 "repo": "hyperdx",
-                "stars": 9870
+                "stars": 9870,
+                "topics": [
+                  "alerting",
+                  "analytics",
+                  "apm",
+                  "application-monitoring",
+                  "clickhouse",
+                  "dashboard",
+                  "frontend-monitoring",
+                  "kubernetes",
+                  "log-management",
+                  "logs",
+                  "metrics",
+                  "monitoring",
+                  "observability",
+                  "opentelemetry",
+                  "react",
+                  "self-hosted",
+                  "session-replay",
+                  "traces",
+                  "typescript"
+                ]
               },
               "first_seen": "2026-08-28T20:56:09.652Z"
             },
@@ -2015,12 +3628,32 @@
               "children": [],
               "repo_info": {
                 "archived": false,
+                "description": "Open source APM: OpenTelemetry traces, metrics, and logs",
+                "homepage": "https://uptrace.dev/get/hosted/open-source-apm",
                 "id": 440841550,
                 "language": "Go",
+                "license": "AGPL-3.0",
                 "last_commit": "2026-08-13T14:47:22Z",
+                "open_issues": 52,
                 "owner": "uptrace",
                 "repo": "uptrace",
-                "stars": 4272
+                "stars": 4273,
+                "topics": [
+                  "apm",
+                  "application-monitoring",
+                  "clickhouse",
+                  "distributed-tracing",
+                  "golang",
+                  "logs",
+                  "metrics",
+                  "monitoring",
+                  "observability",
+                  "opentelemetry",
+                  "performance-monitoring",
+                  "self-hosted",
+                  "tracing",
+                  "vue"
+                ]
               },
               "first_seen": "2026-08-28T20:56:09.652Z"
             },
@@ -2031,12 +3664,38 @@
               "children": [],
               "repo_info": {
                 "archived": false,
+                "description": "Open source platform for AI Engineering: OpenTelemetry-native LLM Observability, GPU Monitoring, Guardrails, Evaluations, Prompt Management, Vault, Playground. 🚀💻 Integrates with 50+ LLM Providers, VectorDBs, Agent Frameworks and GPUs.",
+                "homepage": "https://docs.openlit.io",
                 "id": 747319327,
                 "language": "TypeScript",
+                "license": "Apache-2.0",
                 "last_commit": "2026-08-28T16:59:03Z",
+                "open_issues": 55,
                 "owner": "openlit",
                 "repo": "openlit",
-                "stars": 2721
+                "stars": 2721,
+                "topics": [
+                  "ai-observability",
+                  "amd-gpu",
+                  "clickhouse",
+                  "distributed-tracing",
+                  "genai",
+                  "gpu-monitoring",
+                  "grafana",
+                  "langchain",
+                  "llmops",
+                  "llms",
+                  "metrics",
+                  "monitoring-tool",
+                  "nvidia-smi",
+                  "observability",
+                  "open-source",
+                  "openai",
+                  "opentelemetry",
+                  "otlp",
+                  "python",
+                  "tracing"
+                ]
               },
               "first_seen": "2026-08-28T20:56:09.652Z"
             },
@@ -2047,12 +3706,33 @@
               "children": [],
               "repo_info": {
                 "archived": false,
+                "description": "Metering and Billing for AI, API and DevOps. Collect and aggregate millions of usage events in real-time and enable usage-based billing.",
+                "homepage": "https://openmeter.io",
                 "id": 650344440,
                 "language": "Go",
+                "license": "Apache-2.0",
                 "last_commit": "2026-08-28T11:55:13Z",
+                "open_issues": 77,
                 "owner": "openmeterio",
                 "repo": "openmeter",
-                "stars": 2232
+                "stars": 2232,
+                "topics": [
+                  "analytics",
+                  "billing",
+                  "clickhouse",
+                  "cost",
+                  "finops",
+                  "fintech",
+                  "golang",
+                  "kafka",
+                  "metering",
+                  "payment",
+                  "pricing",
+                  "stripe",
+                  "usage",
+                  "usage-based-billing",
+                  "usage-based-pricing"
+                ]
               },
               "first_seen": "2026-08-28T20:56:09.652Z"
             },
@@ -2063,12 +3743,38 @@
               "children": [],
               "repo_info": {
                 "archived": false,
+                "description": "⭐️ The Open-Source Polyglot Observability Warehouse: Light, Fast, Cloud Native, Drop-in Grafana LGTMP alternative :rocket: Indie All-in-One Opentelemetry, Loki, Prometheus, Tempo, Pyroscope On-Prem Alternative :star: ",
+                "homepage": "https://gigapipe.com",
                 "id": 163185206,
                 "language": "Go",
+                "license": "AGPL-3.0",
                 "last_commit": "2026-08-28T19:43:20Z",
+                "open_issues": 15,
                 "owner": "metrico",
                 "repo": "gigapipe",
-                "stars": 1702
+                "stars": 1702,
+                "topics": [
+                  "clickhouse",
+                  "gigapipe",
+                  "grafana",
+                  "lgtm",
+                  "logql",
+                  "logs",
+                  "loki",
+                  "metrics",
+                  "monitoring",
+                  "observability",
+                  "opentelemetry",
+                  "prometheus",
+                  "promql",
+                  "pyroscope",
+                  "signoz",
+                  "sql",
+                  "tempo",
+                  "timeseries",
+                  "tracing",
+                  "wasm"
+                ]
               },
               "first_seen": "2026-08-28T20:56:09.652Z"
             },
@@ -2079,12 +3785,36 @@
               "children": [],
               "repo_info": {
                 "archived": false,
+                "description": "📈 Open source, privacy-first web analytics — a cookie-less Google Analytics alternative with built-in error tracking and performance monitoring. Self-host it or use our cloud. Get started for free!",
+                "homepage": "https://swetrix.com",
                 "id": 349227174,
                 "language": "TypeScript",
+                "license": "AGPL-3.0",
                 "last_commit": "2026-08-28T00:00:19Z",
+                "open_issues": 15,
                 "owner": "Swetrix",
                 "repo": "swetrix",
-                "stars": 1177
+                "stars": 1177,
+                "topics": [
+                  "charts",
+                  "clickhouse",
+                  "docker",
+                  "gdpr",
+                  "google-analytics",
+                  "metrics",
+                  "monitoring",
+                  "mysql",
+                  "nestjs",
+                  "privacy",
+                  "redis",
+                  "self-hosted",
+                  "selfhosted",
+                  "statistics",
+                  "tailwindcss",
+                  "web-analytics",
+                  "webanalytics",
+                  "website"
+                ]
               },
               "first_seen": "2026-08-28T20:56:09.652Z"
             },
@@ -2095,12 +3825,26 @@
               "children": [],
               "repo_info": {
                 "archived": false,
+                "description": "Database-agnostic SQL Exporter for Prometheus",
+                "homepage": null,
                 "id": 217595262,
                 "language": "Go",
+                "license": "MIT",
                 "last_commit": "2026-08-27T11:21:14Z",
+                "open_issues": 2,
                 "owner": "burningalchemist",
                 "repo": "sql_exporter",
-                "stars": 579
+                "stars": 579,
+                "topics": [
+                  "clickhouse",
+                  "database",
+                  "monitoring",
+                  "mssql",
+                  "mysql",
+                  "postgresql",
+                  "prometheus",
+                  "sql"
+                ]
               },
               "first_seen": "2026-08-28T20:56:09.652Z"
             },
@@ -2111,12 +3855,27 @@
               "children": [],
               "repo_info": {
                 "archived": false,
+                "description": "Flexible SQL Exporter for Prometheus.",
+                "homepage": null,
                 "id": 84057401,
                 "language": "Go",
+                "license": "MIT",
                 "last_commit": "2025-09-22T16:27:42Z",
+                "open_issues": 43,
                 "owner": "justwatchcom",
                 "repo": "sql_exporter",
-                "stars": 501
+                "stars": 501,
+                "topics": [
+                  "athena",
+                  "clickhouse",
+                  "kubernetes",
+                  "mysql",
+                  "postgresql",
+                  "prometheus",
+                  "prometheus-exporter",
+                  "snowflake",
+                  "sql"
+                ]
               },
               "first_seen": "2026-08-28T20:56:09.652Z"
             },
@@ -2127,12 +3886,22 @@
               "children": [],
               "repo_info": {
                 "archived": false,
+                "description": "This is a simple server that periodically scrapes ClickHouse stats and exports them via HTTP for Prometheus(https://prometheus.io/) consumption.",
+                "homepage": null,
                 "id": 70426898,
                 "language": "Go",
+                "license": "MIT",
                 "last_commit": "2025-11-20T11:11:38Z",
+                "open_issues": 1,
                 "owner": "ClickHouse",
                 "repo": "clickhouse_exporter",
-                "stars": 403
+                "stars": 403,
+                "topics": [
+                  "clickhouse",
+                  "exporter",
+                  "prometheus",
+                  "stats"
+                ]
               },
               "first_seen": "2026-08-28T20:56:09.652Z"
             },
@@ -2143,12 +3912,23 @@
               "children": [],
               "repo_info": {
                 "archived": false,
+                "description": "[experimental] Jaeger ClickHouse storage plugin implementation",
+                "homepage": null,
                 "id": 385658067,
                 "language": "Go",
+                "license": "Apache-2.0",
                 "last_commit": "2025-12-15T21:05:02Z",
+                "open_issues": 23,
                 "owner": "jaegertracing",
                 "repo": "jaeger-clickhouse",
-                "stars": 270
+                "stars": 270,
+                "topics": [
+                  "clickhouse",
+                  "clickhouse-database",
+                  "experimental",
+                  "grpc",
+                  "jaegertracing"
+                ]
               },
               "first_seen": "2026-08-28T20:56:09.652Z"
             },
@@ -2159,12 +3939,20 @@
               "children": [],
               "repo_info": {
                 "archived": false,
+                "description": "PromHouse is a long-term remote storage with built-in clustering and downsampling for Prometheus 2.x on top of ClickHouse.",
+                "homepage": null,
                 "id": 99583898,
                 "language": "Go",
+                "license": "Apache-2.0",
                 "last_commit": "2023-02-09T00:21:43Z",
+                "open_issues": 12,
                 "owner": "Percona-Lab",
                 "repo": "PromHouse",
-                "stars": 268
+                "stars": 268,
+                "topics": [
+                  "clickhouse",
+                  "prometheus"
+                ]
               },
               "first_seen": "2026-08-28T20:56:09.652Z"
             },
@@ -2175,12 +3963,21 @@
               "children": [],
               "repo_info": {
                 "archived": false,
+                "description": "Graphouse allows you to use ClickHouse as a Graphite storage.",
+                "homepage": null,
                 "id": 82704003,
                 "language": "Java",
+                "license": "Apache-2.0",
                 "last_commit": "2024-06-14T09:56:36Z",
+                "open_issues": 15,
                 "owner": "ClickHouse",
                 "repo": "graphouse",
-                "stars": 261
+                "stars": 261,
+                "topics": [
+                  "clickhouse",
+                  "graphite",
+                  "graphite-backends"
+                ]
               },
               "first_seen": "2026-08-28T20:56:09.652Z"
             },
@@ -2191,12 +3988,17 @@
               "children": [],
               "repo_info": {
                 "archived": false,
+                "description": "Graphite cluster backend with ClickHouse support",
+                "homepage": null,
                 "id": 73504931,
                 "language": "Go",
+                "license": "MIT",
                 "last_commit": "2025-11-20T02:03:37Z",
+                "open_issues": 26,
                 "owner": "go-graphite",
                 "repo": "graphite-clickhouse",
-                "stars": 222
+                "stars": 222,
+                "topics": []
               },
               "first_seen": "2026-08-28T20:56:09.652Z"
             },
@@ -2207,12 +4009,22 @@
               "children": [],
               "repo_info": {
                 "archived": false,
+                "description": "Graphite metrics receiver with ClickHouse as storage",
+                "homepage": null,
                 "id": 72667908,
                 "language": "Go",
+                "license": "MIT",
                 "last_commit": "2026-03-18T23:13:24Z",
+                "open_issues": 17,
                 "owner": "go-graphite",
                 "repo": "carbon-clickhouse",
-                "stars": 198
+                "stars": 198,
+                "topics": [
+                  "carbon",
+                  "clickhouse",
+                  "graphite",
+                  "timeseries"
+                ]
               },
               "first_seen": "2026-08-28T20:56:09.652Z"
             },
@@ -2223,12 +4035,17 @@
               "children": [],
               "repo_info": {
                 "archived": false,
+                "description": "kubenetmon is an open source Kubernetes network metering solution built at ClickHouse.",
+                "homepage": "https://kubenetmon.clickhouse.tech/index.yaml",
                 "id": 869920556,
                 "language": "Go",
+                "license": "Apache-2.0",
                 "last_commit": "2026-04-16T08:34:38Z",
+                "open_issues": 11,
                 "owner": "ClickHouse",
                 "repo": "kubenetmon",
-                "stars": 186
+                "stars": 186,
+                "topics": []
               },
               "first_seen": "2026-08-28T20:56:09.652Z"
             },
@@ -2239,12 +4056,17 @@
               "children": [],
               "repo_info": {
                 "archived": false,
+                "description": "Prometheus remote storage adaptor for Clickhouse ",
+                "homepage": null,
                 "id": 100368642,
                 "language": "Go",
+                "license": "Apache-2.0",
                 "last_commit": "2024-04-29T02:30:26Z",
+                "open_issues": 4,
                 "owner": "mindis",
                 "repo": "prom2click",
-                "stars": 168
+                "stars": 168,
+                "topics": []
               },
               "first_seen": "2026-08-28T20:56:09.652Z"
             },
@@ -2255,12 +4077,26 @@
               "children": [],
               "repo_info": {
                 "archived": false,
+                "description": "Lightweight Netflow/IPFIX/sFlow collector and analyzer",
+                "homepage": null,
                 "id": 160399783,
                 "language": "C++",
+                "license": "ISC",
                 "last_commit": "2026-08-13T15:01:47Z",
+                "open_issues": 6,
                 "owner": "vmxdev",
                 "repo": "xenoeye",
-                "stars": 148
+                "stars": 148,
+                "topics": [
+                  "clickhouse",
+                  "grafana",
+                  "ipfix",
+                  "netflow",
+                  "netflow-analyzer",
+                  "netflow-collector",
+                  "postgresql",
+                  "sflow"
+                ]
               },
               "first_seen": "2026-08-28T20:56:09.652Z"
             }
@@ -2278,12 +4114,22 @@
               "children": [],
               "repo_info": {
                 "archived": false,
+                "description": "Altinity Kubernetes Operator for ClickHouse creates, configures and manages ClickHouse® clusters running on Kubernetes",
+                "homepage": "https://altinity.com",
                 "id": 165021340,
                 "language": "Go",
+                "license": "Apache-2.0",
                 "last_commit": "2026-08-28T14:33:20Z",
+                "open_issues": 152,
                 "owner": "Altinity",
                 "repo": "clickhouse-operator",
-                "stars": 2559
+                "stars": 2559,
+                "topics": [
+                  "clickhouse",
+                  "clickhouse-operator",
+                  "kubernetes",
+                  "kubernetes-operator"
+                ]
               },
               "first_seen": "2026-08-28T20:56:09.652Z"
             },
@@ -2294,12 +4140,20 @@
               "children": [],
               "repo_info": {
                 "archived": false,
+                "description": "This is a tool which used to manage and monitor ClickHouse database",
+                "homepage": null,
                 "id": 309309464,
                 "language": "Go",
+                "license": "Apache-2.0",
                 "last_commit": "2026-08-10T02:31:37Z",
+                "open_issues": 20,
                 "owner": "housepower",
                 "repo": "ckman",
-                "stars": 485
+                "stars": 485,
+                "topics": [
+                  "clickhouse",
+                  "management"
+                ]
               },
               "first_seen": "2026-08-28T20:56:09.652Z"
             },
@@ -2310,12 +4164,21 @@
               "children": [],
               "repo_info": {
                 "archived": false,
+                "description": "Simple clickhouse cluster with docker-compose",
+                "homepage": null,
                 "id": 255107255,
                 "language": "Makefile",
+                "license": null,
                 "last_commit": "2023-04-23T09:32:46Z",
+                "open_issues": 0,
                 "owner": "tetafro",
                 "repo": "clickhouse-cluster",
-                "stars": 226
+                "stars": 226,
+                "topics": [
+                  "clickhouse",
+                  "docker",
+                  "docker-compose"
+                ]
               },
               "first_seen": "2026-08-28T20:56:09.652Z"
             },
@@ -2326,12 +4189,21 @@
               "children": [],
               "repo_info": {
                 "archived": false,
+                "description": "How to install clickhouse RPM packages",
+                "homepage": null,
                 "id": 100691450,
                 "language": null,
+                "license": "MIT",
                 "last_commit": "2020-01-21T15:13:24Z",
+                "open_issues": 1,
                 "owner": "Altinity",
                 "repo": "clickhouse-rpm-install",
-                "stars": 135
+                "stars": 135,
+                "topics": [
+                  "clickhouse",
+                  "install",
+                  "rpm"
+                ]
               },
               "first_seen": "2026-08-28T20:56:09.652Z"
             }
@@ -2349,12 +4221,24 @@
               "children": [],
               "repo_info": {
                 "archived": false,
+                "description": "Flow collector, enricher and visualizer",
+                "homepage": "https://demo.akvorado.net",
                 "id": 508330030,
                 "language": "Go",
-                "last_commit": "2026-08-28T20:30:47Z",
+                "license": "AGPL-3.0",
+                "last_commit": "2026-08-29T02:42:27Z",
+                "open_issues": 33,
                 "owner": "akvorado",
                 "repo": "akvorado",
-                "stars": 2321
+                "stars": 2321,
+                "topics": [
+                  "clickhouse",
+                  "collector",
+                  "ipfix",
+                  "kafka",
+                  "netflow",
+                  "sflow"
+                ]
               },
               "first_seen": "2026-08-28T20:56:09.652Z"
             },
@@ -2365,12 +4249,30 @@
               "children": [],
               "repo_info": {
                 "archived": false,
+                "description": "A lightweight log analytic and data visualize platform  built on clickhouse.",
+                "homepage": "https://clickvisual.net",
                 "id": 442716595,
                 "language": "Go",
+                "license": "MIT",
                 "last_commit": "2026-08-25T09:16:50Z",
+                "open_issues": 57,
                 "owner": "clickvisual",
                 "repo": "clickvisual",
-                "stars": 1640
+                "stars": 1640,
+                "topics": [
+                  "admin",
+                  "analytics",
+                  "clickhouse",
+                  "clickhouse-database",
+                  "elk",
+                  "go",
+                  "golang",
+                  "kibana",
+                  "kubernetes",
+                  "log",
+                  "search",
+                  "ui"
+                ]
               },
               "first_seen": "2026-08-28T20:56:09.652Z"
             },
@@ -2381,12 +4283,21 @@
               "children": [],
               "repo_info": {
                 "archived": false,
+                "description": "Lightweight, single-binary log analytics interface for ClickHouse, focused on high-performance querying and visualization",
+                "homepage": "https://logchef.app/",
                 "id": 862725037,
                 "language": "Go",
+                "license": "AGPL-3.0",
                 "last_commit": "2026-08-19T09:43:43Z",
+                "open_issues": 7,
                 "owner": "mr-karan",
                 "repo": "logchef",
-                "stars": 879
+                "stars": 879,
+                "topics": [
+                  "clickhouse",
+                  "log-analytics",
+                  "logging"
+                ]
               },
               "first_seen": "2026-08-28T20:56:09.652Z"
             },
@@ -2397,12 +4308,21 @@
               "children": [],
               "repo_info": {
                 "archived": false,
+                "description": "Altinity Grafana datasource plugin for ClickHouse®",
+                "homepage": null,
                 "id": 77918702,
                 "language": "TypeScript",
+                "license": "MIT",
                 "last_commit": "2026-08-17T13:28:12Z",
+                "open_issues": 15,
                 "owner": "Altinity",
                 "repo": "clickhouse-grafana",
-                "stars": 774
+                "stars": 774,
+                "topics": [
+                  "clickhouse",
+                  "clickhouse-datasource",
+                  "grafana"
+                ]
               },
               "first_seen": "2026-08-28T20:56:09.652Z"
             },
@@ -2413,12 +4333,35 @@
               "children": [],
               "repo_info": {
                 "archived": false,
+                "description": "Web-based log viewer UI. Explore logs data stored in several sources: ClickHouse, Kubernetes or Docker",
+                "homepage": "https://iamtelescope.net",
                 "id": 909184070,
                 "language": "Python",
+                "license": "MIT",
                 "last_commit": "2026-05-08T13:06:09Z",
+                "open_issues": 12,
                 "owner": "iamtelescope",
                 "repo": "telescope",
-                "stars": 709
+                "stars": 709,
+                "topics": [
+                  "analytics",
+                  "clickhouse",
+                  "django",
+                  "docker",
+                  "k8s",
+                  "kubernetes",
+                  "log-viewer",
+                  "logging",
+                  "logs",
+                  "o11y",
+                  "observability",
+                  "self-hosted",
+                  "spa",
+                  "starrocks",
+                  "telescope",
+                  "vuejs",
+                  "web"
+                ]
               },
               "first_seen": "2026-08-28T20:56:09.652Z"
             },
@@ -2429,12 +4372,32 @@
               "children": [],
               "repo_info": {
                 "archived": false,
+                "description": "The First Real-Time Search Analytics Database",
+                "homepage": "https://serenedb.com",
                 "id": 1048068299,
                 "language": "C++",
+                "license": "Apache-2.0",
                 "last_commit": "2026-08-28T18:26:20Z",
+                "open_issues": 254,
                 "owner": "serenedb",
                 "repo": "serenedb",
-                "stars": 704
+                "stars": 704,
+                "topics": [
+                  "analytics",
+                  "bm25",
+                  "clickhouse",
+                  "cpp",
+                  "database",
+                  "dbms",
+                  "duckdb",
+                  "elasticsearch",
+                  "olap",
+                  "postgresql",
+                  "relational-database",
+                  "search-engine",
+                  "search-engines",
+                  "sql"
+                ]
               },
               "first_seen": "2026-08-28T20:56:09.652Z"
             },
@@ -2445,12 +4408,22 @@
               "children": [],
               "repo_info": {
                 "archived": false,
+                "description": "Interactive visualization and analytics on ADS-B data with ClickHouse",
+                "homepage": "https://adsb.exposed/",
                 "id": 736060550,
                 "language": "JavaScript",
+                "license": "NOASSERTION",
                 "last_commit": "2026-08-10T19:18:28Z",
+                "open_issues": 4,
                 "owner": "ClickHouse",
                 "repo": "adsb.exposed",
-                "stars": 458
+                "stars": 458,
+                "topics": [
+                  "ads-b",
+                  "clickhouse",
+                  "flightradar",
+                  "geospatial"
+                ]
               },
               "first_seen": "2026-08-28T20:56:09.652Z"
             },
@@ -2461,12 +4434,32 @@
               "children": [],
               "repo_info": {
                 "archived": false,
+                "description": "Open Source Agentic Business Intelligence with Malloy Semantic Layer :tada:",
+                "homepage": "https://mprove.io",
                 "id": 173731695,
                 "language": "TypeScript",
+                "license": "Apache-2.0",
                 "last_commit": "2026-08-28T14:53:48Z",
+                "open_issues": 0,
                 "owner": "mprove-io",
                 "repo": "mprove",
-                "stars": 338
+                "stars": 338,
+                "topics": [
+                  "analytics",
+                  "bigquery",
+                  "business-intelligence",
+                  "dashboard",
+                  "data-engineering",
+                  "googleanalytics",
+                  "looker",
+                  "malloy",
+                  "metrics",
+                  "postgresql",
+                  "reports",
+                  "semantic",
+                  "snowflake",
+                  "sql"
+                ]
               },
               "first_seen": "2026-08-28T20:56:09.652Z"
             },
@@ -2477,12 +4470,23 @@
               "children": [],
               "repo_info": {
                 "archived": false,
+                "description": "Visualizing data in ClickHouse using native Kibana.",
+                "homepage": "https://tongchengopensource.github.io/ckibana-docs/",
                 "id": 721536727,
                 "language": "Java",
+                "license": "Apache-2.0",
                 "last_commit": "2025-09-22T04:13:17Z",
+                "open_issues": 13,
                 "owner": "TongchengOpenSource",
                 "repo": "ckibana",
-                "stars": 315
+                "stars": 315,
+                "topics": [
+                  "clickhouse",
+                  "clickhouse-visualization",
+                  "elasticsearch",
+                  "kibana",
+                  "kibana-visualization"
+                ]
               },
               "first_seen": "2026-08-28T20:56:09.652Z"
             },
@@ -2493,12 +4497,19 @@
               "children": [],
               "repo_info": {
                 "archived": false,
+                "description": "Grafana Plugin for ClickHouse",
+                "homepage": "https://grafana.com/grafana/plugins/grafana-clickhouse-datasource",
                 "id": 427493431,
                 "language": "TypeScript",
-                "last_commit": "2026-08-28T19:04:19Z",
+                "license": "Apache-2.0",
+                "last_commit": "2026-08-29T01:04:22Z",
+                "open_issues": 76,
                 "owner": "grafana",
                 "repo": "clickhouse-datasource",
-                "stars": 220
+                "stars": 220,
+                "topics": [
+                  "group-datasources"
+                ]
               },
               "first_seen": "2026-08-28T20:56:09.652Z"
             },
@@ -2509,12 +4520,24 @@
               "children": [],
               "repo_info": {
                 "archived": false,
+                "description": "Everything You Always Wanted To Know About GitHub (But Were Afraid To Ask)",
+                "homepage": "https://ghe.clickhouse.tech/",
                 "id": 314442029,
                 "language": "HTML",
+                "license": null,
                 "last_commit": "2026-08-16T22:07:44Z",
+                "open_issues": 5,
                 "owner": "ClickHouse",
                 "repo": "github-explorer",
-                "stars": 178
+                "stars": 178,
+                "topics": [
+                  "analytics",
+                  "clickhouse",
+                  "github",
+                  "github-api",
+                  "olap",
+                  "sql"
+                ]
               },
               "first_seen": "2026-08-28T20:56:09.652Z"
             },
@@ -2525,12 +4548,24 @@
               "children": [],
               "repo_info": {
                 "archived": false,
+                "description": "PyPI analytics powered by ClickHouse",
+                "homepage": "https://clickpy.clickhouse.com",
                 "id": 678452100,
                 "language": "HTML",
+                "license": "Apache-2.0",
                 "last_commit": "2026-08-11T23:32:59Z",
+                "open_issues": 31,
                 "owner": "ClickHouse",
                 "repo": "clickpy",
-                "stars": 155
+                "stars": 155,
+                "topics": [
+                  "analytics",
+                  "clickhouse",
+                  "pypi",
+                  "pypi-packages",
+                  "python",
+                  "real-time"
+                ]
               },
               "first_seen": "2026-08-28T20:56:09.652Z"
             },
@@ -2541,12 +4576,32 @@
               "children": [],
               "repo_info": {
                 "archived": false,
+                "description": "A free, open-source,  web-based self-service BI tailor-made for clickhouse, google bigquery, mysql, postgresql, vertica",
+                "homepage": "https://rocket.bi",
                 "id": 539526502,
                 "language": "TypeScript",
+                "license": "GPL-3.0",
                 "last_commit": "2024-11-21T14:24:50Z",
+                "open_issues": 16,
                 "owner": "datainsider-co",
                 "repo": "rocket-bi",
-                "stars": 124
+                "stars": 124,
+                "topics": [
+                  "analytics",
+                  "bigdata",
+                  "bigquery",
+                  "bussiness-intelligence",
+                  "clickhouse",
+                  "dashboard",
+                  "data",
+                  "etl",
+                  "hacktoberfest",
+                  "hacktoberfest2023",
+                  "ingestion",
+                  "mysql",
+                  "postgresql",
+                  "vertica"
+                ]
               },
               "first_seen": "2026-08-28T20:56:09.652Z"
             }
@@ -2564,12 +4619,34 @@
               "children": [],
               "repo_info": {
                 "archived": false,
+                "description": "Fast, Simple and a cost effective tool to replicate data from Postgres to Data Warehouses, Queues and Storage",
+                "homepage": "https://peerdb.io",
                 "id": 628390075,
                 "language": "Go",
-                "last_commit": "2026-08-28T20:33:20Z",
+                "license": "AGPL-3.0",
+                "last_commit": "2026-08-29T04:25:17Z",
+                "open_issues": 199,
                 "owner": "PeerDB-io",
                 "repo": "peerdb",
-                "stars": 3254
+                "stars": 3254,
+                "topics": [
+                  "bigquery",
+                  "cdc",
+                  "clickhouse",
+                  "cloud-native",
+                  "distributed-systems",
+                  "etl",
+                  "eventhubs",
+                  "kafka",
+                  "postgres",
+                  "postgresql",
+                  "realtime",
+                  "rust",
+                  "s3",
+                  "snowflake",
+                  "sql",
+                  "stream-processing"
+                ]
               },
               "first_seen": "2026-08-28T20:56:09.652Z"
             },
@@ -2580,12 +4657,34 @@
               "children": [],
               "repo_info": {
                 "archived": false,
+                "description": "The Fastest Unified Streaming SQL Engine in a Single C++ Binary.        ⚡ Millisecond latency. 100+ GB/s throughput. Continuously compute real-time context from streams, logs, metrics, events, and CDC.",
+                "homepage": "https://timeplus.com",
                 "id": 678214856,
                 "language": "C++",
+                "license": "Apache-2.0",
                 "last_commit": "2026-08-13T01:48:19Z",
+                "open_issues": 80,
                 "owner": "timeplus-io",
                 "repo": "proton",
-                "stars": 2249
+                "stars": 2249,
+                "topics": [
+                  "agentic-ai",
+                  "clickhouse",
+                  "context",
+                  "cpp",
+                  "etl",
+                  "flink",
+                  "iceberg",
+                  "kakfa",
+                  "ksqldb",
+                  "observability",
+                  "pipeline",
+                  "real-time",
+                  "redpanda",
+                  "single-binary",
+                  "sql",
+                  "stream-processing"
+                ]
               },
               "first_seen": "2026-08-28T20:56:09.652Z"
             },
@@ -2596,12 +4695,29 @@
               "children": [],
               "repo_info": {
                 "archived": true,
+                "description": "ByConity is an open source cloud data warehouse",
+                "homepage": "https://byconity.github.io/",
                 "id": 581145740,
                 "language": "C++",
+                "license": "Apache-2.0",
                 "last_commit": "2026-06-14T02:35:45Z",
+                "open_issues": 180,
                 "owner": "ByConity",
                 "repo": "ByConity",
-                "stars": 2239
+                "stars": 2239,
+                "topics": [
+                  "bytedance",
+                  "clickhouse",
+                  "clickhouse-database",
+                  "cloud",
+                  "kubernets",
+                  "lakehouse",
+                  "olap",
+                  "s3",
+                  "snowflake",
+                  "sql",
+                  "tiktok"
+                ]
               },
               "first_seen": "2026-08-28T20:56:09.652Z"
             },
@@ -2612,12 +4728,26 @@
               "children": [],
               "repo_info": {
                 "archived": false,
+                "description": "YTsaurus is a scalable and fault-tolerant open-source big data platform.",
+                "homepage": "https://ytsaurus.tech",
                 "id": 574588439,
                 "language": "C++",
-                "last_commit": "2026-08-28T20:24:17Z",
+                "license": "Apache-2.0",
+                "last_commit": "2026-08-29T02:39:36Z",
+                "open_issues": 490,
                 "owner": "ytsaurus",
                 "repo": "ytsaurus",
-                "stars": 2203
+                "stars": 2203,
+                "topics": [
+                  "big-data",
+                  "clickhouse",
+                  "distributed-database",
+                  "lakehouse",
+                  "olap-database",
+                  "spark",
+                  "sql",
+                  "ytsaurus"
+                ]
               },
               "first_seen": "2026-08-28T20:56:09.652Z"
             },
@@ -2628,12 +4758,22 @@
               "children": [],
               "repo_info": {
                 "archived": false,
+                "description": "Import public NYC taxi and for-hire vehicle (Uber, Lyft) trip data into a PostgreSQL or ClickHouse database",
+                "homepage": null,
                 "id": 46248471,
                 "language": "R",
+                "license": "MIT",
                 "last_commit": "2025-08-18T17:13:46Z",
+                "open_issues": 3,
                 "owner": "toddwschneider",
                 "repo": "nyc-taxi-data",
-                "stars": 2082
+                "stars": 2082,
+                "topics": [
+                  "clickhouse",
+                  "nyc",
+                  "nyc-taxi-dataset",
+                  "postgresql"
+                ]
               },
               "first_seen": "2026-08-28T20:56:09.652Z"
             },
@@ -2644,12 +4784,38 @@
               "children": [],
               "repo_info": {
                 "archived": false,
+                "description": "Trench — Open-Source Analytics Infrastructure. A single production-ready Docker image built on ClickHouse, Kafka, and Node.js for tracking events. Easily build product analytics dashboards, LLM RAGs, observability platforms, or any other analytics product.",
+                "homepage": "https://trench.dev",
                 "id": 865585945,
                 "language": "TypeScript",
+                "license": "MIT",
                 "last_commit": "2026-04-06T23:11:33Z",
+                "open_issues": 3,
                 "owner": "FrigadeHQ",
                 "repo": "trench",
-                "stars": 1661
+                "stars": 1661,
+                "topics": [
+                  "analytics",
+                  "clickhouse",
+                  "clickhouse-database",
+                  "clickhouse-server",
+                  "dashboard",
+                  "dashboards",
+                  "event-replay",
+                  "kafka",
+                  "kafka-engine",
+                  "llm",
+                  "matomo",
+                  "matomo-analytics",
+                  "nodejs",
+                  "open-source",
+                  "plausible-analytics",
+                  "posthog",
+                  "product-analytics",
+                  "rag",
+                  "tracking",
+                  "tracking-events"
+                ]
               },
               "first_seen": "2026-08-28T20:56:09.652Z"
             },
@@ -2660,12 +4826,33 @@
               "children": [],
               "repo_info": {
                 "archived": false,
+                "description": "A fast and versatile ETL tool that can transfer data between RDBMS and NoSQL seamlessly",
+                "homepage": "https://addax.wgzhao.com",
                 "id": 197400272,
                 "language": "Java",
+                "license": "Apache-2.0",
                 "last_commit": "2026-08-27T00:33:35Z",
+                "open_issues": 12,
                 "owner": "wgzhao",
                 "repo": "Addax",
-                "stars": 1427
+                "stars": 1427,
+                "topics": [
+                  "clickhouse",
+                  "database",
+                  "etl",
+                  "excel",
+                  "hadoop",
+                  "hdfs",
+                  "hive",
+                  "impala",
+                  "influxdb",
+                  "kudu",
+                  "mysql",
+                  "oracle",
+                  "postgresql",
+                  "sqlserver",
+                  "trino"
+                ]
               },
               "first_seen": "2026-08-28T20:56:09.652Z"
             },
@@ -2676,12 +4863,37 @@
               "children": [],
               "repo_info": {
                 "archived": false,
+                "description": "ClickBench: a Benchmark For Analytical Databases",
+                "homepage": "https://benchmark.clickhouse.com/",
                 "id": 512901698,
                 "language": "Shell",
-                "last_commit": "2026-08-28T16:35:45Z",
+                "license": "NOASSERTION",
+                "last_commit": "2026-08-29T04:32:21Z",
+                "open_issues": 42,
                 "owner": "ClickHouse",
                 "repo": "ClickBench",
-                "stars": 1092
+                "stars": 1092,
+                "topics": [
+                  "analytics",
+                  "aws",
+                  "benchmark",
+                  "big-data",
+                  "bigquery",
+                  "chdb",
+                  "clickhouse",
+                  "databases",
+                  "datafusion",
+                  "datalake",
+                  "doris",
+                  "duckdb",
+                  "iceberg",
+                  "lakehouse",
+                  "olap",
+                  "parquet",
+                  "rust",
+                  "snowflake",
+                  "sql"
+                ]
               },
               "first_seen": "2026-08-28T20:56:09.652Z"
             },
@@ -2692,12 +4904,38 @@
               "children": [],
               "repo_info": {
                 "archived": false,
+                "description": "DataCap is integrated software for data transformation, integration, and visualization. Support a variety of data sources, file types, big data related database, relational database, NoSQL database, etc. Through the software can realize the management of multiple data sources, the data under the source of various operations conversion ...",
+                "homepage": "https://datacap.devlive.org/",
                 "id": 537719266,
                 "language": "Java",
+                "license": "Apache-2.0",
                 "last_commit": "2026-08-14T04:48:13Z",
+                "open_issues": 35,
                 "owner": "devlive-community",
                 "repo": "datacap",
-                "stars": 1051
+                "stars": 1051,
+                "topics": [
+                  "clickhouse",
+                  "database",
+                  "db2",
+                  "dremio",
+                  "druid",
+                  "elasticsearch",
+                  "h2",
+                  "hive",
+                  "ignite",
+                  "kylin",
+                  "kyuubi",
+                  "monetdb",
+                  "mongodb",
+                  "mysql",
+                  "phoenix",
+                  "postgresql",
+                  "presto",
+                  "redis",
+                  "sqlserver",
+                  "trino"
+                ]
               },
               "first_seen": "2026-08-28T20:56:09.652Z"
             },
@@ -2708,12 +4946,32 @@
               "children": [],
               "repo_info": {
                 "archived": false,
+                "description": "A @ClickHouse fork that supports high-performance vector search and full-text search.",
+                "homepage": "https://myscale.com",
                 "id": 771847852,
                 "language": "C++",
+                "license": "Apache-2.0",
                 "last_commit": "2025-02-05T05:11:40Z",
+                "open_issues": 10,
                 "owner": "myscale",
                 "repo": "MyScaleDB",
-                "stars": 1040
+                "stars": 1040,
+                "topics": [
+                  "ann",
+                  "big-data",
+                  "embedding",
+                  "image-search",
+                  "llm",
+                  "myscaledb",
+                  "rag",
+                  "search-engine",
+                  "similarity-search",
+                  "sql",
+                  "sql-vector",
+                  "unstructured-analytics",
+                  "vector-search",
+                  "vectordb"
+                ]
               },
               "first_seen": "2026-08-28T20:56:09.652Z"
             },
@@ -2724,12 +4982,24 @@
               "children": [],
               "repo_info": {
                 "archived": false,
+                "description": "GlassFlow ETL: Open source data ingestion and transformations for ClickHouse pipelines",
+                "homepage": "https://glassflow-etl.com/",
                 "id": 970582901,
                 "language": "TypeScript",
+                "license": "Apache-2.0",
                 "last_commit": "2026-08-25T15:02:02Z",
+                "open_issues": 1,
                 "owner": "glassflow",
                 "repo": "clickhouse-etl",
-                "stars": 500
+                "stars": 500,
+                "topics": [
+                  "clickhouse",
+                  "glassflow",
+                  "kafka",
+                  "otlp",
+                  "realtime-etl",
+                  "streamprocessing"
+                ]
               },
               "first_seen": "2026-08-28T20:56:09.652Z"
             },
@@ -2740,12 +5010,38 @@
               "children": [],
               "repo_info": {
                 "archived": false,
+                "description": "A blazing fast tool for building data pipelines: read, process and output events. Our community: https://t.me/file_d_community",
+                "homepage": "https://ozontech.github.io/file.d",
                 "id": 240488592,
                 "language": "Go",
+                "license": "BSD-3-Clause",
                 "last_commit": "2026-08-28T10:44:39Z",
+                "open_issues": 70,
                 "owner": "ozontech",
                 "repo": "file.d",
-                "stars": 500
+                "stars": 500,
+                "topics": [
+                  "actions",
+                  "clickhouse",
+                  "elasticsearch",
+                  "events",
+                  "file",
+                  "gelf",
+                  "go",
+                  "http",
+                  "input",
+                  "json",
+                  "kafka",
+                  "logs",
+                  "observability",
+                  "output",
+                  "pipeline",
+                  "processing",
+                  "reading",
+                  "sre",
+                  "throttle",
+                  "tracing"
+                ]
               },
               "first_seen": "2026-08-28T20:56:09.652Z"
             },
@@ -2756,12 +5052,24 @@
               "children": [],
               "repo_info": {
                 "archived": true,
+                "description": "Service for bulk-loading data to databases with automatic schema management (Redshift, Snowflake, BigQuery, ClickHouse, Postgres, MySQL)",
+                "homepage": "https://github.com/jitsucom/bulker",
                 "id": 506408470,
                 "language": "Go",
+                "license": "MIT",
                 "last_commit": "2026-04-09T20:51:26Z",
+                "open_issues": 8,
                 "owner": "jitsucom",
                 "repo": "bulker",
-                "stars": 224
+                "stars": 224,
+                "topics": [
+                  "data-engineering",
+                  "datawarehouse",
+                  "etl",
+                  "etl-pipeline",
+                  "ingestion",
+                  "pipeline"
+                ]
               },
               "first_seen": "2026-08-28T20:56:09.652Z"
             },
@@ -2772,12 +5080,27 @@
               "children": [],
               "repo_info": {
                 "archived": false,
+                "description": "Open Source Cloud Native Ingestion engine",
+                "homepage": "https://transferia.github.io/transferia/",
                 "id": 821729041,
                 "language": "Go",
+                "license": "Apache-2.0",
                 "last_commit": "2026-08-28T17:24:17Z",
+                "open_issues": 60,
                 "owner": "transferia",
                 "repo": "transferia",
-                "stars": 193
+                "stars": 193,
+                "topics": [
+                  "bigdata",
+                  "cdc",
+                  "clickhouse",
+                  "elt",
+                  "go",
+                  "golang",
+                  "ingestion-platform",
+                  "kafka",
+                  "streaming"
+                ]
               },
               "first_seen": "2026-08-28T20:56:09.652Z"
             },
@@ -2788,12 +5111,26 @@
               "children": [],
               "repo_info": {
                 "archived": true,
+                "description": "A set of tools and examples to run a flow-pipeline (sFlow, NetFlow)",
+                "homepage": "https://www.cloudflare.com",
                 "id": 123599434,
                 "language": "Go",
+                "license": "Apache-2.0",
                 "last_commit": "2026-04-24T00:53:01Z",
+                "open_issues": 5,
                 "owner": "cloudflare",
                 "repo": "flow-pipeline",
-                "stars": 192
+                "stars": 192,
+                "topics": [
+                  "clickhouse",
+                  "cloudflare",
+                  "docker",
+                  "goflow",
+                  "kafka",
+                  "netflow",
+                  "protobuf",
+                  "sflow"
+                ]
               },
               "first_seen": "2026-08-28T20:56:09.652Z"
             },
@@ -2804,12 +5141,25 @@
               "children": [],
               "repo_info": {
                 "archived": false,
+                "description": "Data Forge — a modern data stack playground to practice flows and best practices, not just tools. Spark, Trino, Kafka, Iceberg, ClickHouse, Airflow, MinIO, Superset — all wired together locally with Docker Compose.",
+                "homepage": null,
                 "id": 1044984602,
                 "language": "Jupyter Notebook",
+                "license": "NOASSERTION",
                 "last_commit": "2025-10-11T09:01:25Z",
+                "open_issues": 4,
                 "owner": "fortiql",
                 "repo": "data-forge",
-                "stars": 182
+                "stars": 182,
+                "topics": [
+                  "bronze-silver-gold",
+                  "data-engineering",
+                  "data-lake",
+                  "data-simulation",
+                  "lakehouse",
+                  "modern-data-stack",
+                  "open-source"
+                ]
               },
               "first_seen": "2026-08-28T20:56:09.652Z"
             },
@@ -2820,12 +5170,25 @@
               "children": [],
               "repo_info": {
                 "archived": false,
+                "description": "A library developed to ease the data ETL development process.",
+                "homepage": "https://easy-sql.readthedocs.io/",
                 "id": 484457292,
                 "language": "Python",
+                "license": "Apache-2.0",
                 "last_commit": "2026-08-17T21:06:07Z",
+                "open_issues": 8,
                 "owner": "easysql",
                 "repo": "easy_sql",
-                "stars": 135
+                "stars": 135,
+                "topics": [
+                  "clickhouse",
+                  "etl",
+                  "postgres",
+                  "postgresql",
+                  "python",
+                  "spark",
+                  "sql"
+                ]
               },
               "first_seen": "2026-08-28T20:56:09.652Z"
             },
@@ -2836,12 +5199,36 @@
               "children": [],
               "repo_info": {
                 "archived": false,
+                "description": "Prebuilt Docker images with Retrosheet's complete baseball history data for many analytical frameworks. Includes Postgres, cstore_fdw, MySQL, SQLite, Clickhouse, Drill, Parquet, and CSV.",
+                "homepage": null,
                 "id": 183717434,
                 "language": "Python",
+                "license": "Apache-2.0",
                 "last_commit": "2026-05-20T00:16:03Z",
+                "open_issues": 12,
                 "owner": "droher",
                 "repo": "boxball",
-                "stars": 132
+                "stars": 132,
+                "topics": [
+                  "apache-drill",
+                  "baseball",
+                  "baseballdatabank",
+                  "clickhouse",
+                  "column-store",
+                  "containers",
+                  "docker",
+                  "mysql",
+                  "play-by-play",
+                  "postgres",
+                  "postgresql",
+                  "retrosheet",
+                  "sabermetrics",
+                  "sports",
+                  "sports-data",
+                  "sports-stats",
+                  "sql",
+                  "sqlite"
+                ]
               },
               "first_seen": "2026-08-28T20:56:09.652Z"
             },
@@ -2852,12 +5239,24 @@
               "children": [],
               "repo_info": {
                 "archived": false,
+                "description": "Open Source Customer Engagement Platform (Customer.io Alternative)",
+                "homepage": "https://www.limejourney.com",
                 "id": 835417447,
                 "language": "TypeScript",
+                "license": "NOASSERTION",
                 "last_commit": "2026-04-03T08:06:04Z",
+                "open_issues": 8,
                 "owner": "LimeJourney",
                 "repo": "limeJourney",
-                "stars": 130
+                "stars": 130,
+                "topics": [
+                  "clickhouse",
+                  "kafka",
+                  "nextjs",
+                  "saas",
+                  "tailwindcss",
+                  "temporal"
+                ]
               },
               "first_seen": "2026-08-28T20:56:09.652Z"
             }
@@ -2879,12 +5278,28 @@
           "children": [],
           "repo_info": {
             "archived": false,
+            "description": "Tool for easy backup and restore for ClickHouse® using object storage for backup files. ",
+            "homepage": "https://altinity.com",
             "id": 150444746,
             "language": "Go",
+            "license": "NOASSERTION",
             "last_commit": "2026-08-28T13:31:03Z",
+            "open_issues": 37,
             "owner": "Altinity",
             "repo": "clickhouse-backup",
-            "stars": 1641
+            "stars": 1641,
+            "topics": [
+              "azblob",
+              "backup",
+              "clickhouse",
+              "clickhouse-backup",
+              "clickhousedump",
+              "dump",
+              "ftp",
+              "gcs",
+              "s3",
+              "sftp"
+            ]
           },
           "first_seen": "2026-08-28T20:56:09.652Z"
         },
@@ -2895,12 +5310,17 @@
           "children": [],
           "repo_info": {
             "archived": false,
+            "description": "Connect ClickHouse to your AI assistants.",
+            "homepage": null,
             "id": 908231244,
             "language": "Python",
+            "license": "Apache-2.0",
             "last_commit": "2026-08-28T16:24:31Z",
+            "open_issues": 38,
             "owner": "ClickHouse",
             "repo": "mcp-clickhouse",
-            "stars": 859
+            "stars": 859,
+            "topics": []
           },
           "first_seen": "2026-08-28T20:56:09.652Z"
         },
@@ -2911,12 +5331,25 @@
           "children": [],
           "repo_info": {
             "archived": false,
+            "description": "Open source tool for monitoring and managing ClickHouse clusters",
+            "homepage": null,
             "id": 620579677,
             "language": "TypeScript",
+            "license": "MIT",
             "last_commit": "2026-08-05T17:45:29Z",
+            "open_issues": 22,
             "owner": "PostHog",
             "repo": "HouseWatch",
-            "stars": 631
+            "stars": 631,
+            "topics": [
+              "clickhouse",
+              "database",
+              "database-management",
+              "django",
+              "mit-license",
+              "open-source",
+              "react"
+            ]
           },
           "first_seen": "2026-08-28T20:56:09.652Z"
         },
@@ -2927,12 +5360,30 @@
           "children": [],
           "repo_info": {
             "archived": false,
+            "description": "Open-source operational advisor for ClickHouse — real-time monitoring plus AI-driven index/partition/materialized-view recommendations.",
+            "homepage": "https://chmonitor.dev",
             "id": 719577983,
             "language": "TypeScript",
+            "license": "GPL-3.0",
             "last_commit": "2026-08-27T18:40:32Z",
+            "open_issues": 5,
             "owner": "chmonitor",
             "repo": "chmonitor",
-            "stars": 285
+            "stars": 285,
+            "topics": [
+              "ai-agent",
+              "chmonitor",
+              "clickhouse",
+              "cloudflare-workers",
+              "database-monitoring",
+              "duyet",
+              "mcp",
+              "monitoring",
+              "observability",
+              "open-source",
+              "self-hosted",
+              "tanstack-start"
+            ]
           },
           "first_seen": "2026-08-28T20:56:09.652Z"
         }
@@ -2949,12 +5400,35 @@
           "children": [],
           "repo_info": {
             "archived": false,
+            "description": "ClickHouse® is a real-time analytics database management system",
+            "homepage": "https://clickhouse.com",
             "id": 60246359,
             "language": "C++",
-            "last_commit": "2026-08-28T20:54:29Z",
+            "license": "Apache-2.0",
+            "last_commit": "2026-08-29T04:46:16Z",
+            "open_issues": 7232,
             "owner": "ClickHouse",
             "repo": "ClickHouse",
-            "stars": 49516
+            "stars": 49517,
+            "topics": [
+              "ai",
+              "analytics",
+              "big-data",
+              "clickhouse",
+              "cloud-native",
+              "cpp",
+              "database",
+              "dbms",
+              "distributed",
+              "embedded",
+              "hacktoberfest",
+              "lakehouse",
+              "mpp",
+              "olap",
+              "rust",
+              "self-hosted",
+              "sql"
+            ]
           },
           "first_seen": "2026-08-28T20:56:09.652Z"
         },
@@ -2965,12 +5439,21 @@
           "children": [],
           "repo_info": {
             "archived": false,
+            "description": "Presentations, meetups and talks about ClickHouse",
+            "homepage": "https://www.youtube.com/c/ClickHouseDB",
             "id": 87554659,
             "language": "HTML",
+            "license": "Apache-2.0",
             "last_commit": "2026-08-28T09:55:34Z",
+            "open_issues": 0,
             "owner": "ClickHouse",
             "repo": "clickhouse-presentations",
-            "stars": 1081
+            "stars": 1081,
+            "topics": [
+              "clickhouse",
+              "presentations",
+              "slides"
+            ]
           },
           "first_seen": "2026-08-28T20:56:09.652Z"
         },
@@ -2981,12 +5464,21 @@
           "children": [],
           "repo_info": {
             "archived": true,
+            "description": "We have moved: https://github.com/ClickHouse/ClickHouse/tree/master/docs#readme",
+            "homepage": "https://clickhouse.com/docs",
             "id": 475029937,
             "language": "MDX",
+            "license": "NOASSERTION",
             "last_commit": "2026-08-12T14:44:38Z",
+            "open_issues": 0,
             "owner": "ClickHouse",
             "repo": "clickhouse-docs",
-            "stars": 212
+            "stars": 212,
+            "topics": [
+              "clickhouse",
+              "documentation",
+              "guide"
+            ]
           },
           "first_seen": "2026-08-28T20:56:09.652Z"
         },
@@ -2997,12 +5489,17 @@
           "children": [],
           "repo_info": {
             "archived": false,
+            "description": "ClickHouse Academy training and certification",
+            "homepage": null,
             "id": 767049145,
             "language": "Shell",
+            "license": "NOASSERTION",
             "last_commit": "2026-08-03T22:11:12Z",
+            "open_issues": 7,
             "owner": "ClickHouse",
             "repo": "clickhouse-academy",
-            "stars": 154
+            "stars": 154,
+            "topics": []
           },
           "first_seen": "2026-08-28T20:56:09.652Z"
         },
@@ -3013,12 +5510,17 @@
           "children": [],
           "repo_info": {
             "archived": false,
+            "description": "Tutorial for setup clickhouse server.",
+            "homepage": null,
             "id": 160758820,
             "language": "Makefile",
+            "license": null,
             "last_commit": "2024-03-14T21:35:42Z",
+            "open_issues": 1,
             "owner": "jneo8",
             "repo": "clickhouse-setup",
-            "stars": 153
+            "stars": 153,
+            "topics": []
           },
           "first_seen": "2026-08-28T20:56:09.652Z"
         }
@@ -3035,12 +5537,24 @@
           "children": [],
           "repo_info": {
             "archived": false,
+            "description": "A collection of examples for working and building with ClickHouse",
+            "homepage": "https://clickhouse.com/",
             "id": 584359113,
             "language": "Jupyter Notebook",
+            "license": "Apache-2.0",
             "last_commit": "2026-08-17T21:22:30Z",
+            "open_issues": 31,
             "owner": "ClickHouse",
             "repo": "examples",
-            "stars": 227
+            "stars": 227,
+            "topics": [
+              "cdc",
+              "clickhouse",
+              "crypto",
+              "docker",
+              "ethereum",
+              "observability"
+            ]
           },
           "first_seen": "2026-08-28T20:56:09.652Z"
         },
@@ -3051,12 +5565,23 @@
           "children": [],
           "repo_info": {
             "archived": false,
+            "description": "A demonstration how to use ClickHouse with MaxMind GeoIP2 databases for geolocaiton",
+            "homepage": null,
             "id": 180371323,
             "language": "Dockerfile",
+            "license": "MIT",
             "last_commit": "2022-12-08T12:12:35Z",
+            "open_issues": 1,
             "owner": "AlexeyKupershtokh",
             "repo": "clickhouse-maxmind-geoip",
-            "stars": 123
+            "stars": 123,
+            "topics": [
+              "clickhouse",
+              "clickhouse-server",
+              "maxmind",
+              "maxmind-geoip",
+              "maxmind-geoip2-api"
+            ]
           },
           "first_seen": "2026-08-28T20:56:09.652Z"
         }
@@ -3065,15 +5590,23 @@
     }
   ],
   "metadata": {
-    "last_updated": "2026-08-28T20:56:09.652Z",
+    "last_updated": "2026-08-29T04:51:29.161Z",
     "original_repository_info": {
       "archived": false,
+      "description": "A curated list of awesome ClickHouse software.",
+      "homepage": "http://awesome-clickhouse.korchasa.dev/",
       "id": 185589735,
       "language": "HTML",
+      "license": "CC0-1.0",
       "last_commit": "2026-08-24T03:24:42Z",
+      "open_issues": 0,
       "owner": "korchasa",
       "repo": "awesome-clickhouse",
-      "stars": 196
+      "stars": 196,
+      "topics": [
+        "awesome-list",
+        "clickhouse"
+      ]
     },
     "original_repository_sha": "da1801e9a5ff8f2bb3851a6b0bc02a4f36879d2f",
     "enhanced_repository": "enhansome/enhansome-clickhouse",
